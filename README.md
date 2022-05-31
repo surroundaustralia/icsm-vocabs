@@ -1,3 +1,5 @@
+## This repository is now archived in favour of the authoratitive one at https://github.com/geoscienceaustralia/icsm-vocabs
+
 ![](style/logo-invert.png)
 
 # ICSM Vocabularies
