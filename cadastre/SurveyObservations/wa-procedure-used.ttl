@@ -71,7 +71,7 @@
 
 <https://linked.data.gov.au/def/csdm/wa-procedure-used/original-distances-and-lot-interest-distances-from-physical-measurements--Distances-that-are-calculated-from-physically-measured-distances> a skos:Concept,
         sosa:Procedure ;
-    skos:altLabel " such Sketch on Transfer boundaries and interest boundaries are also considered \"\"Measured\"\"\"" ;
+    skos:altLabel " such Sketch on Transfer boundaries and interest boundaries are also considered Measured\"" ;
     skos:definition " \"Distances that have been physically measured including precal" ;
     skos:inScheme <https://linked.data.gov.au/def/csdm/wa-procedure-used> ;
     skos:notation " original distances and lot/interest distances from physical measurements. Distances that are calculated from physically measured distances" ;
@@ -89,16 +89,16 @@
     skos:scopeNote "sosa:Procedure" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-02-04T06:23:50.906583"^^xsd:dateTime ;
-    prov:startedAtTime "2024-02-04T06:23:50.811992"^^xsd:dateTime ;
+    prov:endedAtTime "2024-04-11T01:58:39.654196"^^xsd:dateTime ;
+    prov:startedAtTime "2024-04-11T01:58:39.578045"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
-            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyObservations/wa-procedure-used.csv> ] ;
+            dct:hasVersion "git:16d4de41d1c500441eaaa7339af50639ee1281fe" ;
+            rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/SurveyObservations/wa-procedure-used.csv> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.35" ;
+            dct:hasVersion "0.3.44" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
-    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+    prov:wasInformedBy [ dct:identifier "f9843f24-b69c-4a50-840c-bab8670c1476" ] .
 

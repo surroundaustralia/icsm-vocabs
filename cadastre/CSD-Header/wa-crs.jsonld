@@ -52,7 +52,7 @@
       "preflabel": "GDA2020 / MGA zone 47",
       "definition": "Projected GDA2020 / MGA zone 47",
       "notation": "7847",
-      "altlabel": "47,MGA2020",
+      "altlabel": "47, MGA2020",
       "related": null,
       "@id": "7847",
       "type": "termtype:AllowableCoordinateReferenceSystem",

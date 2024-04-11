@@ -32,7 +32,7 @@
       "preflabel": "Measured",
       "definition": " \"Distances that have been physically measured including precal",
       "notation": " original distances and lot/interest distances from physical measurements. Distances that are calculated from physically measured distances",
-      "altlabel": " such Sketch on Transfer boundaries and interest boundaries are also considered \"\"Measured\"\"\"",
+      "altlabel": " such Sketch on Transfer boundaries and interest boundaries are also considered Measured\"",
       "related": "measured",
       "@id": "original-distances-and-lot-interest-distances-from-physical-measurements--Distances-that-are-calculated-from-physically-measured-distances",
       "type": "sosa:Procedure",

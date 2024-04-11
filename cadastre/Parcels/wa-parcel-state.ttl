@@ -88,16 +88,16 @@
     skos:scopeNote "termtype:ParcelState" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-02-04T06:23:51.799305"^^xsd:dateTime ;
-    prov:startedAtTime "2024-02-04T06:23:51.704864"^^xsd:dateTime ;
+    prov:endedAtTime "2024-04-11T01:58:28.795009"^^xsd:dateTime ;
+    prov:startedAtTime "2024-04-11T01:58:28.717863"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
-            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/Parcels/wa-parcel-state.csv> ] ;
+            dct:hasVersion "git:16d4de41d1c500441eaaa7339af50639ee1281fe" ;
+            rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/Parcels/wa-parcel-state.csv> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.35" ;
+            dct:hasVersion "0.3.44" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
-    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+    prov:wasInformedBy [ dct:identifier "f9843f24-b69c-4a50-840c-bab8670c1476" ] .
 
