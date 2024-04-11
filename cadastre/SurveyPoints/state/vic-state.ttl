@@ -1,0 +1,46 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state/existing> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:definition "A mark of any type that was existing at the time of the cadastral survey. For these marks, the condition defines what condition the mark is in when it was located." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-state> ;
+    skos:notation "existing" ;
+    skos:prefLabel "Existing" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state/new> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:definition "A mark of any type that is created as part of the cadastral survey" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-state> ;
+    skos:notation "new" ;
+    skos:prefLabel "New" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state/proposed> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-monument-state> ;
+    skos:notation "proposed" ;
+    skos:prefLabel "Proposed" .
+
+<https://linked.data.gov.au/def/csdm/vic-monument-state> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Monument State" ;
+    skos:scopeNote "surv:SurveyPointState" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:45.822696"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:45.738537"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyPoints/state/vic-state.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-type/2d-building> a skos:Concept,
+        surv:ParcelType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-type> ;
+    skos:notation "2d-building" ;
+    skos:prefLabel "2D Building" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-type/multi-part> a skos:Concept,
+        surv:ParcelType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-type> ;
+    skos:notation "multi-part" ;
+    skos:prefLabel "Multipart" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-type/part> a skos:Concept,
+        surv:ParcelType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-type> ;
+    skos:notation "part" ;
+    skos:prefLabel "Part" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-type/single> a skos:Concept,
+        surv:ParcelType ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-type> ;
+    skos:notation "single" ;
+    skos:prefLabel "Single" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-type> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Parcel Type" ;
+    skos:scopeNote "surv:ParcelType" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:50.104249"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:50.017636"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/Parcels/vic-parcel-type.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

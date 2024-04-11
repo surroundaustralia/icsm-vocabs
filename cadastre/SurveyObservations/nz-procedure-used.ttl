@@ -1,0 +1,71 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/nz-procedure-used/adopted> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were adopted from a previous survey where the dimensions had been measured" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-procedure-used> ;
+    skos:notation "adopted" ;
+    skos:prefLabel "adopted" .
+
+<https://linked.data.gov.au/def/csdm/nz-procedure-used/calculated> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation where calculated" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-procedure-used> ;
+    skos:notation "calculated" ;
+    skos:prefLabel "calculated" .
+
+<https://linked.data.gov.au/def/csdm/nz-procedure-used/measured> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were measured when the survey was conducted" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-procedure-used> ;
+    skos:notation "measured" ;
+    skos:prefLabel "measured" .
+
+<https://linked.data.gov.au/def/csdm/nz-procedure-used/reinadopted> a skos:Concept,
+        sosa:Procedure ;
+    skos:altLabel "rein adopted" ;
+    skos:definition "The dimensions of the observation were used for a reinstated boundary – no parcels are created" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-procedure-used> ;
+    skos:notation "reinadopted" ;
+    skos:prefLabel "reinadopted" .
+
+<https://linked.data.gov.au/def/csdm/nz-procedure-used/reincalculated> a skos:Concept,
+        sosa:Procedure ;
+    skos:altLabel "rein calculated" ;
+    skos:definition "The dimensions of the observation were used for a reinstated boundary – no parcels are created" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-procedure-used> ;
+    skos:notation "reincalculated" ;
+    skos:prefLabel "reincalculated" .
+
+<https://linked.data.gov.au/def/csdm/nz-procedure-used/scaled> a skos:Concept,
+        sosa:Procedure ;
+    skos:altLabel "calculated" ;
+    skos:definition "The dimensions of the observation were scaled from a graphical plot" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-procedure-used> ;
+    skos:notation "scaled" ;
+    skos:prefLabel "scaled" .
+
+<https://linked.data.gov.au/def/csdm/nz-procedure-used> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Survey Procedures" ;
+    skos:scopeNote "sosa:Procedure" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:50.291964"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:50.203950"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyObservations/nz-procedure-used.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

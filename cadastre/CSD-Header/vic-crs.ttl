@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.opengis.net/def/crs/EPSG/0/28354> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "MGA94_Zone54" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "28354" ;
+    skos:prefLabel "GDA94 / MGA zone 54" .
+
+<http://www.opengis.net/def/crs/EPSG/0/28355> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "MGA94_Zone55" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "28355" ;
+    skos:prefLabel "GDA94 / MGA zone 55" .
+
+<http://www.opengis.net/def/crs/EPSG/0/7854> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "MGA2020_Zone54" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "7854" ;
+    skos:prefLabel "GDA2020 / MGA zone 54" .
+
+<http://www.opengis.net/def/crs/EPSG/0/7855> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "MGA2020_Zone55" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "7855" ;
+    skos:prefLabel "GDA2020 / MGA zone 55" .
+
+<http://www.opengis.net/def/crs/EPSG/0> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Coordinate Reference Systems" ;
+    skos:scopeNote "termtype:AllowableCoordinateReferenceSystem" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:51.611558"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:51.524909"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/CSD-Header/vic-crs.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

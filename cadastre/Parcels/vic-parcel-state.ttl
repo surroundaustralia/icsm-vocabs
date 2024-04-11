@@ -1,0 +1,68 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-state/affected> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "An existing parcel subject to amendment due to new boundary adoption from an abutting parcel" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-state> ;
+    skos:notation "affected" ;
+    skos:prefLabel "Affected" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-state/cancelled> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "An existing parcel subject to cancellation" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-state> ;
+    skos:notation "cancelled" ;
+    skos:prefLabel "Cancelled" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-state/created> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "A new parcel being created in a plan (e.g. (PS) plan of subdivision; (OP) original plan" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-state> ;
+    skos:notation "created" ;
+    skos:prefLabel "Created" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-state/encroached> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "An existing parcel encroached by a new boundary adoption from an abutting parcel" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-state> ;
+    skos:notation "encroached" ;
+    skos:prefLabel "Encroached" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-state/existing> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "A parcel that exists on the cadastre and the boundaries are not affected" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-state> ;
+    skos:notation "existing" ;
+    skos:prefLabel "Existing" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-state/removed> a skos:Concept,
+        termtype:ParcelState ;
+    skos:definition "An easement / restriction subject to removal" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-state> ;
+    skos:notation "removed" ;
+    skos:prefLabel "Removed" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-state> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Parcel State" ;
+    skos:scopeNote "termtype:ParcelState" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:44.956623"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:44.868232"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/Parcels/vic-parcel-state.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

@@ -1,0 +1,7 @@
+preflabel,definition,notation,altlabel,related
+Land District,A Land District is a NZ administrative area that all titles and surveys were registered against prior to Landonline.,landDistrict,,
+Territorial Authority,"A NZ territorial authority is defined under the Local Government Act 2002, NZ, as a city or a district council",territorialAuthority,Municipality,
+County,A Victorian cadastral division for cadastral or land administration purposes,county,,
+Parish,A subdivision of a Victorian County,parish,,
+Local Government Area,"Local government is the third level of government in Australia, administered with limited autonomy under the states and territories, and in turn beneath the federal government",localGovernmentArea,Local Government,Municipality
+Locality,A subdivision of a Western Australian Local Government Area,locality,,

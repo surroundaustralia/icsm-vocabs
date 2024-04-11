@@ -1,0 +1,77 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/parcel-derived> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "parcel-derived" ;
+    skos:prefLabel "Parcel and area derived" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/public-acquisition> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "public-acquisition" ;
+    skos:prefLabel "Public Acquisition" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/r-26a> a skos:Concept,
+        termtype:Annotation ;
+    skos:definition "Survey carried out under Reg 26a Special Survey Areas, Licensed Surveyors (General Surveying Practice) Regulations 1961" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "r-26a" ;
+    skos:prefLabel "Special Survey Area Guidelines" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/sp> a skos:Concept,
+        termtype:Annotation ;
+    skos:definition " Survey plan note stating survey sheet information has priority" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "sp" ;
+    skos:prefLabel "Information priority" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/surveyed-dimensions> a skos:Concept,
+        termtype:Annotation ;
+    skos:definition "Description of method for deriving dimensions contained in the data and on related survey plans" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "surveyed-dimensions" ;
+    skos:prefLabel "Surveyed Dimensions" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/total-area> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "total-area" ;
+    skos:prefLabel "Total Subdivided Area" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/transfer-of-land-exempt> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "transfer-of-land-exempt" ;
+    skos:prefLabel "Transfer of Land (Survey) Regulations 1995 Exemption" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation/unsurveyed-dimensions> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-annotation> ;
+    skos:notation "unsurveyed-dimensions" ;
+    skos:prefLabel "Unsurveyed Dimensions" .
+
+<https://linked.data.gov.au/def/csdm/wa-annotation> a skos:ConceptScheme ;
+    skos:prefLabel "WA CSD Annotation" ;
+    skos:scopeNote "termtype:Annotation" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:49.610253"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:49.520063"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/CSD-Header/wa-annotation.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

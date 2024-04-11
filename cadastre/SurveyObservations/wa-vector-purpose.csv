@@ -1,0 +1,130 @@
+preflabel,definition,notation,altlabel,related
+Control Network,Control Network,control-network,11,"APX-05:N; DSD:13,43,44,46"
+Long GNSS Control Network Connection,Long GNSS Control Network Connection,long-gnss-control-network-connection,11,"APX-05:N; DSD:13,46"
+Lot Boundary,Lot Boundary,lot-boundary,2,APX-05:I; DSD:2
+Road Boundary,Road Boundary,road-boundary,1,APX-05:R; DSD:1
+Road Construct,Road Construct,road-construction,11,APX-05:C; DSD:11
+Interest Boundary,Interest Boundary,interest-boundary,21,APX-05:E; DSD:21
+Interest Construct,Interest Construct,interest-construction,22,APX-05:K; DSD:22
+Mining Boundary,Mining Boundary,mining-boundary,60,"APX-05:R,I; DSD:53-77"
+Mining Construct,Mining Construct,mining-construction,78,APX-05:C; DSD:78
+Cadastral Construct,Cadastral Construct,cadastral-construction,11,"APX-05:C; DSD:11,12,15"
+Cadastral Connection,Cadastral Connection,cadastral-connection,11,"APX-05:C; DSD:11,12,15"
+Townsite Boundary,Townsite Boundary,townsite-boundary,,
+Port Authority Boundary,Port Authority Boundary,port-authority-boundary,190,
+Local Government Boundary,Local Government Boundary,local-government-boundary,,
+State Forrest Boundary,State Forrest Boundary,state-forrest-boundary,175,
+Depth Limit Boundary,Location Boundary for DepthLimit,depth-limit-boundary,,
+Depth Limit Construct,Depth Limit Construct,depth-limit-construction,,
+Fence,Structure - Fence,fence,,
+Structure Clockwise Left,Structure - Left,structure-cw-left,,
+Structure Clockwise Right,Structure - Right,structure-cw-right,,
+Mineral Reservation,Mineral Reservation,mineral-reservation,,
+Abuttal,Abuttal,abuttal,,
+Covenant Restrictive Covenant,Linear Interest linetype,covernant-restrictive-covenant,,
+MHWM Boundary,Mean High Water Mark Boundary,MHWM-Boundary,3,APX-05:W
+Group Boundary,Group Boundary,Group-Boundary,4,APX-05:I
+Common Boundary,Common Boundary,Common-Boundary,5,APX-05:I
+HWM Boundary,High Water Mark Boundary,HWM-Boundary,6,APX-05:W
+LWM Boundary,Low Water Mark Boundary,LWM-Boundary,7,APX-05:W
+Nautical Boundary,Nautical Boundary,Nautical-Boundary,8,APX-05:W
+Network Construct,Network Construct,Network-Construct,11,APX-05:C
+Poly Tie Construct,Poly Tie Construct,Poly-Tie-Construct,12,APX-05:C
+3D Normal,3D Normal,3D-Normal,14,APX-05:I
+3D Construct,3D Construct,3D-Construct,15,APX-05:C
+Superline,Superline,Superline,23,
+HAT,Highest Astronomical Tide-ICSM-SP9,HAT,6,
+MHWS,Mean High Water Springs-ICSM-SP9,MHWS,6,
+MHW,Mean High Water-Common Law-ICSM-SP9,MHW,6,
+MSL,Mean Sea Level-ICSM-SP9,MSL,,
+MLWS,Mean Low Water Springs-ICSM-SP9,MLWS,7,
+MLW,Mean Low Water-ICSM-SP9,MLW,7,
+LAT,Lowest Astronomical Tide-ICSM-SP9,LAT,7,
+Surround,Surround,Surround,181,
+Interest Surround,Interest Surround,Interest-Surround,182,
+Cancelled Surround,Cancelled Surround,Cancelled-Surround,183,
+Retired Surround,Retired Surround,Retired-Surround,184,
+Conversion,Conversion,Conversion,186,
+Statutory Plan,Statutory Plan,Statutory-Plan,187,
+Superseded Crown,Superseded Crown,Superseded-Crown,200,
+Superseded Freehold,Superseded Freehold,Superseded-Freehold,201,
+Superseded Lease,Superseded Lease,Superseded-Lease,202,
+RO Construct,RO Construct,RO-Construct,13,APX-05:N
+Non Geodetic Connection,Non Geodetic Connection,Non-Geodetic-Connection,43,APX-05:N
+Non Geodetic Precal,Non Geodetic Precal,Non-Geodetic-Precal,44,APX-05:N
+Non Geodetic Connection GDA94,Non Geodetic Connection GDA94,Non-Geodetic-Connection-GDA94,46,APX-05:N
+RO Construct Mining,RO Construct Mining,RO-Construct-Mining,53,
+Mining District,Mining District,Mining-District,55,
+Mining Field,Mining Field,Mining-Field,56,
+Current Mining,Current Mining,Current-Mining,60,
+Superseded Mining Level 1,Superseded Mining Level 1,Superseded-Mining-Level-1,61,
+Superseded Mining Level 2,Superseded Mining Level 2,Superseded-Mining-Level-2,62,
+Superseded Mining Level 3,Superseded Mining Level 3,Superseded-Mining-Level-3,63,
+Superseded Mining Level 4,Superseded Mining Level 4,Superseded-Mining-Level-4,64,
+Superseded Mining Level 5,Superseded Mining Level 5,Superseded-Mining-Level-5,65,
+Superseded Mining Level 6,Superseded Mining Level 6,Superseded-Mining-Level-6,66,
+Superseded Mining Level 7,Superseded Mining Level 7,Superseded-Mining-Level-7,67,
+Superseded Mining Level 8,Superseded Mining Level 8,Superseded-Mining-Level-8,68,
+Superseded Mining Level 9,Superseded Mining Level 9,Superseded-Mining-Level-9,69,
+Superseded Mining Level 10,Superseded Mining Level 10,Superseded-Mining-Level-10,70,
+Superseded Mining Level 11,Superseded Mining Level 11,Superseded-Mining-Level-11,71,
+Superseded Mining Level 12,Superseded Mining Level 12,Superseded-Mining-Level-12,72,
+Superseded Mining Level 13,Superseded Mining Level 13,Superseded-Mining-Level-13,73,
+Superseded Mining Level 14,Superseded Mining Level 14,Superseded-Mining-Level-14,74,
+Superseded Mining Level 15,Superseded Mining Level 15,Superseded-Mining-Level-15,75,
+Superseded Mining Level 16,Superseded Mining Level 16,Superseded-Mining-Level-16,76,
+Superseded Mining Level 17,Superseded Mining Level 17,Superseded-Mining-Level-17,77,
+Infrastructure 1,Infrastructure 1,Infrastructure-1,146,
+Infrastructure 2,Infrastructure 2,Infrastructure-2,147,
+Critical Port Areas (CPA),Critical Port Areas (CPA),Critical-Port-Areas-CPA,148,
+LCMU (Native Title) ILUA,LCMU (Native Title) ILUA,LCMU-Native-Title-ILUA,149,
+LGA Town-site,LGA Town-site,LGA-Town-site,151,
+Postal Locality,Postal Locality,Postal-Locality,152,
+Linked LGA,Linked LGA,Linked-LGA,153,
+LGA Ward,LGA Ward,LGA-Ward,154,
+PreGazetted LGA Ward,PreGazetted LGA Ward,PreGazetted-LGA-Ward,155,
+Project 1,Project 1,Project-1,156,
+Project 2,Project 2,Project-2,157,
+Project 3,Project 3,Project-3,158,
+Project 4,Project 4,Project-4,159,
+MLA,MLA,MLA,160,
+MLC,MLC,MLC,161,
+Proposed MLA,Proposed MLA,Proposed-MLA,162,
+Proposed MLC,Proposed MLC,Proposed-MLC,163,
+PreGazetted LGA,PreGazetted LGA,PreGazetted-LGA,164,
+State Border,State Border,State-Border,165,
+Land Division,Land Division,Land-Division,166,
+Land District,Land District,Land-District,167,
+Agricultural Area,Agricultural Area,Agricultural-Area,168,
+Suburban Area,Suburban Area,Suburban-Area,169,
+Estate Area,Estate Area,Estate-Area,170,
+Town-site Land Act,Town-site Land Act,Town-site-Land-Act,171,
+Special Settlement Area,Special Settlement Area,Special-Settlement-Area,172,
+Riverpark Area,Riverpark Area,Riverpark-Area,173,
+Development Control Area,Development Control Area,Development-Control-Area,174,
+State Forest,State Forest,State-Forest,175,
+Timber Reserve,Timber Reserve,Timber-Reserve,176,
+Marine Park,Marine Park,Marine-Park,177,
+Marine Nature Reserve,Marine Nature Reserve,Marine-Nature-Reserve,178,
+Marine Management Area,Marine Management Area,Marine-Management-Area,179,
+Water Control Area,Water Control Area,Water-Control-Area,185,
+Port Authority,Port Authority,Port-Authority,190,
+Marine & Harbour Area,Marine & Harbour Area,Marine-&-Harbour-Area,191,
+Special Survey Area,Special Survey Area,Special-Survey-Area,192,
+Shipping and Pilotage,Shipping and Pilotage,Shipping-and-Pilotage,193,
+Railway Corridor,Railway Corridor,Railway-Corridor,194,
+DBNGP Corridor,DBNGP Corridor,DBNGP-Corridor,195,
+LCMU (Native Title) NNTT,LCMU (Native Title) NNTT,LCMU-Native-Title-NNTT,196,
+LCMU (Native Title) Fed,LCMU (Native Title) Fed,LCMU-Native-Title-Fed,197,
+LCMU (Native Title) Det,LCMU (Native Title) Det,LCMU-Native-Title-Det,198,
+Administrative Boundary Construct,Administrative Boundary Construct,Administrative-Boundary-Construct,199,
+Easement,Easement Boundary,easement,,
+Easement Construct,Easement Construction Line,easement-construction,,
+Traverse,,traverse,,
+Radiation,,radiation,,
+Check,,check,,
+Boundary,,boundary,,
+Abuttal,,abuttal,,
+Astronomical Azimuth, The angle between two planes - one which passes through the observing station and the rotation axis or (true) north and the second which passes through the observing station and a second point being observed,astronomical-azimuth,,
+Geodetic Azimuth,The angle between two planes - one of which passes through the observing station and the north pole of the ellipsoid and the second which passes through this same the observing station and a second point being observed,geodetic-azimuth,,
+Grid Azimuth,The angle between grid north and the tangent to the arc at the observing station. It is measured from grid north clockwise,grid-azimuth,,

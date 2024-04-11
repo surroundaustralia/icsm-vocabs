@@ -1,0 +1,5 @@
+preflabel,definition,notation,altlabel,related
+Class A,Urban and the most accurate. The class A tolerance for boundary points increases from 0.06m at a rate of 0.015m per 100m.,a,,
+Class B,Rural and not as accurate as class A. The class B tolerance for boundary points increases from 0.30m at a rate of 0.06m per 100m.,b,,
+Class C,Used in specified rural circumstances where a less accurate boundary is acceptable. The class C tolerance for boundary points increases from 1.00m at a rate of 0.30m per 100m.,c,,
+Class D,(used in exceptional circumstances where the existing boundary accuracy is unknown or unable to be determined and it is appropriate to permit these inaccuracies to remain,d,,

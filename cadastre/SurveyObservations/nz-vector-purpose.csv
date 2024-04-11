@@ -1,0 +1,8 @@
+preflabel,definition,notation,altlabel,related
+adopted,The dimensions of the observation were adopted from a previous survey where the dimensions had been measured,adopted,,
+calculated,The dimensions of the observation where calculated,calculated,,
+measured,The dimensions of the observation were measured when the survey was conducted,measured,,
+scaled,The dimensions of the observation were scaled from a graphical plot,scaled,calculated,
+reinadopted,The dimensions of the observation were used for a reinstated boundary – no parcels are created,reinadopted,rein adopted,
+reincalculated,The dimensions of the observation were used for a reinstated boundary – no parcels are created,reincalculated,rein calculated,
+pseudo,The dimensions of the observation were calculated by Landonline from the coordinates of the local and remote setup's,pseudo,,

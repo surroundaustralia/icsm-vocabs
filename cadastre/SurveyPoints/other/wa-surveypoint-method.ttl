@@ -1,0 +1,75 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/D> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Phase 1 Least Square Adjustment - minimally constrained?" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "D" ;
+    skos:prefLabel "Least Squares Adjustment (Phase 1)" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/F> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Transformation - Map Projection Conversions" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "F" ;
+    skos:prefLabel "Map Projection Transformation" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/G> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Graphical Construction - e.g. CO-GO, calculated, digitised" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "G" ;
+    skos:prefLabel "Graphical" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/K> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Keyed In - e.g. by co ordinates" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "K" ;
+    skos:prefLabel "Coordinate entry" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/L> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Phase 2 Least Square Adjustment - fully constrained?" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "L" ;
+    skos:prefLabel "Least Squares Adjustment (Phase 2)" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/P> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Precal - all SSA surveys" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "P" ;
+    skos:prefLabel "Precalculated" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/T> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Traverse Adjustment - generally all traditional surveys that are not precalculated." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "T" ;
+    skos:prefLabel "Traverse Adjustment" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method> a skos:ConceptScheme ;
+    skos:prefLabel "WA Survey Point Creation Method" ;
+    skos:scopeNote "termtype:PointCreationMethod" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:34.913198"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:34.802372"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyPoints/other/wa-surveypoint-method.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

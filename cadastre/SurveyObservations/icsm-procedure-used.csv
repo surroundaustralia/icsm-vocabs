@@ -1,0 +1,9 @@
+preflabel,definition,notation,altlabel,related
+adopted,The dimensions of the observation were adopted from a previous survey where the dimensions had been measured,adopted,,
+calculated,The dimensions of the observation where calculated,calculated,,
+measured,The dimensions of the observation were measured when the survey was conducted,measured,,
+scaled,The dimensions of the observation were scaled from a graphical plot,scaled,,calculated
+Calculated,"Cadastral Boundaries created under the Operational Directives, such as Survey Registration Minute 1/98 and Executive Minutes 17/90 and 10/92 are to be shown as ""Calculated"".",calculated,,calculated
+derived, Unsurveyed. Only applicable for mid azimuths and is derived from a mean of the reverse azimuths calculated from the two end points.,derived,,
+described,Unsurveyed. Directions and distances from physical monuments to define and describe the boundaries of the parcel. ,described,metes & bounds,
+approximate,Inaccurate - does not meet applicable standards of accuracy for cadastral surveys,approximate,,scaled

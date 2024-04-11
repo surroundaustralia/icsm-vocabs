@@ -1,0 +1,98 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/did-not-search> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "did-not-search" ;
+    skos:prefLabel "Did not search" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/mark-found> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:altLabel "M.F." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "mark-found" ;
+    skos:prefLabel "Mark Found" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/mark-found-and-adjusted> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:altLabel "M.F. Adj." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "mark-found-and-adjusted" ;
+    skos:prefLabel "Mark Found and Adjusted" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/mark-found-and-renewed> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:altLabel "M.F. Renewed" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "mark-found-and-renewed" ;
+    skos:prefLabel "Mark Found and Renewed" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/mark-found-and-replaced> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:altLabel "M.G. Replaced" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "mark-found-and-replaced" ;
+    skos:prefLabel "Mark Found and Replaced" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/mark-gone> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:altLabel "M.G." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "mark-gone" ;
+    skos:prefLabel "Mark Gone" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/mark-gone-and-replaced> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:altLabel "M.G. Replaced" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "mark-gone-and-replaced" ;
+    skos:prefLabel "Mark Gone and Replaced" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/new-mark> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "new-mark" ;
+    skos:prefLabel "New Mark" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/not-found> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "not-found" ;
+    skos:prefLabel "Not Found" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/presumed-gone> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "presumed-gone" ;
+    skos:prefLabel "Presumed gone" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state/unmarked> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-monument-state> ;
+    skos:notation "unmarked" ;
+    skos:prefLabel "Unmarked" .
+
+<https://linked.data.gov.au/def/csdm/wa-monument-state> a skos:ConceptScheme ;
+    skos:prefLabel "WA Monument State" ;
+    skos:scopeNote "surv:SurveyPointState" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:50.481695"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:50.387445"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyPoints/state/wa-state.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

@@ -1,0 +1,50 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/abandoned> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "abandoned" ;
+    skos:prefLabel "abandoned" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/destroyed> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "destroyed" ;
+    skos:prefLabel "destroyed" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/existing> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "existing" ;
+    skos:prefLabel "existing" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state/proposed> a skos:Concept,
+        surv:SurveyPointState ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-monument-state> ;
+    skos:notation "proposed" ;
+    skos:prefLabel "proposed" .
+
+<https://linked.data.gov.au/def/csdm/icsm-monument-state> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Monument State" ;
+    skos:scopeNote "surv:SurveyPointState" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:44.406994"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:44.243327"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyPoints/state/icsm-state.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

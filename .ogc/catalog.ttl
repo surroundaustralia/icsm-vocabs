@@ -1,0 +1,16 @@
+@prefix dcfg: <http://www.example.org/ogc/domain-cfg#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix profiles: <http://www.opengis.net/def/metamodel/profiles/> .
+
+
+_:vocabs-uplift a dcat:Dataset, dcfg:UpliftConfiguration ;
+  dct:description "Cadastre Profile vocabularies uplift" ;
+  dcfg:glob "cadastre/**/*.csv" ;
+  dcfg:hasUpliftDefinition [
+    dcfg:order 1 ;
+    dcfg:file "cadastre/vocabs-uplift.yml" ;
+  ] ;
+.
+

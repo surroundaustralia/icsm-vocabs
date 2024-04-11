@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/adopted> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were adopted from a previous survey where the dimensions had been measured" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "adopted" ;
+    skos:prefLabel "adopted" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/approximate> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "Inaccurate - does not meet applicable standards of accuracy for cadastral surveys" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "approximate" ;
+    skos:prefLabel "approximate" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/calculated> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "Cadastral Boundaries created under the Operational Directives, such as Survey Registration Minute 1/98 and Executive Minutes 17/90 and 10/92 are to be shown as \"Calculated\".",
+        "The dimensions of the observation where calculated" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "calculated" ;
+    skos:prefLabel "Calculated",
+        "calculated" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/derived> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition " Unsurveyed. Only applicable for mid azimuths and is derived from a mean of the reverse azimuths calculated from the two end points." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "derived" ;
+    skos:prefLabel "derived" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/described> a skos:Concept,
+        sosa:Procedure ;
+    skos:altLabel "metes & bounds" ;
+    skos:definition "Unsurveyed. Directions and distances from physical monuments to define and describe the boundaries of the parcel. " ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "described" ;
+    skos:prefLabel "described" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/measured> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were measured when the survey was conducted" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "measured" ;
+    skos:prefLabel "measured" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used/scaled> a skos:Concept,
+        sosa:Procedure ;
+    skos:definition "The dimensions of the observation were scaled from a graphical plot" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-procedure-used> ;
+    skos:notation "scaled" ;
+    skos:prefLabel "scaled" .
+
+<https://linked.data.gov.au/def/csdm/icsm-procedure-used> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Survey Procedures" ;
+    skos:scopeNote "sosa:Procedure" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:45.663815"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:45.574457"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyObservations/icsm-procedure-used.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

@@ -1,0 +1,74 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/common-property> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "common-property" ;
+    skos:prefLabel "Common Property" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/crown-allotment> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "crown-allotment" ;
+    skos:prefLabel "Crown Allotment" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/crown-portion> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "crown-portion" ;
+    skos:prefLabel "Crown Portion" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/lot> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "lot" ;
+    skos:prefLabel "Lot" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/owners-corporation> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "owners-corporation" ;
+    skos:prefLabel "Owners Corporation" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/reserve> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "reserve" ;
+    skos:prefLabel "Reserve" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/road> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "road" ;
+    skos:prefLabel "Road" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose/stage-lot> a skos:Concept,
+        termtype:ParcelPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-parcel-purpose> ;
+    skos:notation "stage-lot" ;
+    skos:prefLabel "Stage Lot" .
+
+<https://linked.data.gov.au/def/csdm/vic-parcel-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Parcel Purpose" ;
+    skos:scopeNote "termtype:ParcelPurpose" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:41.076246"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:40.987096"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/Parcels/vic-parcel-purpose.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

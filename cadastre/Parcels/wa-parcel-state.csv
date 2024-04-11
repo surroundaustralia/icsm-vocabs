@@ -1,0 +1,12 @@
+preflabel,definition,notation,altlabel,related
+Lodged,Database state: Lodged,lodged,,
+Superseded, Database State: Element further subdivided or removed,superseded,,
+Registered,Database state: Element registered,registered,,
+Cancelled,Document and Database State: Plan/Scheme unregistered and cancelled,cancelled,,
+Terminated,Document and Database State: Plan/Scheme terminated,terminated,,
+Created,Document state: The parcel is being created by the survey,created,,nz-parcel-state:created
+Referenced,Document state: The parcel is referenced by the survey,referenced,,nz-parcel-state:referenced
+Former tenure,Document state: The parcel is being replaced by one or more parcels created by the survey,former-tenure,,nz-parcel-state:extinguished
+Inset,Document state: The parcel is an inset lot,inset,,
+Affected tenure,Document state: The parcel is to be encumbured,affected-tenure,,
+Abuttal,Document State:parcel is relevant to display,abuttal,,

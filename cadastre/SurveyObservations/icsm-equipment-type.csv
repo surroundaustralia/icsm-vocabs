@@ -1,0 +1,16 @@
+preflabel,definition,notation,altlabel,related
+GNSS (inc. GPS) System,,gnss,,LA_GNSSObservation
+Level,,level,,LA_LevelObservation
+Tape,,tape,,
+Theodolite and EDM,,t-edm,,LA_TPSObservation
+Theodolite and Steel Band,,t-band,,
+Total Station,,ts,,LA_TPSObservation
+LiDAR,,lidar,,LA_PointCloud
+Camera,,camera,,LA_ImageObservation
+Inertial Navigation System,,ins,,
+Theodolite,,t,,LA_TPSObservation
+EDM,,edm,,LA_TPSObservation
+Prism,,p,,
+Software,,software,,
+GPPS Base,,base,,LA_GNSSObservation
+GPS Rover,,rover,,LA_GNSSObservation

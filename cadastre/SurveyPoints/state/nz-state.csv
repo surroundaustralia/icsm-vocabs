@@ -1,0 +1,7 @@
+preflabel,definition,notation,altlabel,related
+Adopted,"The mark existed before the survey was conducted and was adopted from a previous survey, i.e., It was not surveyed for this survey.",adpt,0,
+New,The mark was created by this survey.,new,1,
+Old,The mark existed before the survey was conducted. The mark is undisturbed and considered to be original. The mark was surveyed as part of this survey.,old,2,
+System Added,,sysa,3,
+Disturbed,"The mark has been disturbed, hence a new coordinated position.",dist,,
+Replaced,The mark replaces an existing mark.,repl,,

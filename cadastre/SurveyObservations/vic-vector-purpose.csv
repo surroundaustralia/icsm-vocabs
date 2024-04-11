@@ -1,0 +1,5 @@
+preflabel,definition,notation,altlabel,related
+Sideshot,Used for all radiations,sideshot,,
+Normal,Used for all boundaries,normal,,
+Traverse,Used for all Traverses, traverse,,
+Topo,Used for all secondary interest fixing (e.g. to fix a floating easement to nearest lot corner),topo,,

@@ -1,0 +1,104 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/administrative> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "administrative" ;
+    skos:prefLabel "administrative" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "boundary" ;
+    skos:prefLabel "boundary" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/control> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "control" ;
+    skos:prefLabel "control" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/monument> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "monument" ;
+    skos:prefLabel "monument" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/natural-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "natural-boundary" ;
+    skos:prefLabel "natural boundary" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/occupation> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "occupation" ;
+    skos:prefLabel "occupation" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/other> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "other" ;
+    skos:prefLabel "Other" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/reference> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "reference" ;
+    skos:prefLabel "reference" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/sideshot> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "sideshot" ;
+    skos:prefLabel "sideshot" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/survey> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "survey" ;
+    skos:prefLabel "survey" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/traverse> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "traverse" ;
+    skos:prefLabel "traverse" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/unknown> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "unknown" ;
+    skos:prefLabel "Unknown" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose/unmarked> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> ;
+    skos:notation "unmarked" ;
+    skos:prefLabel "unmarked boundary" .
+
+<https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "ICSM Survey Point Purpose" ;
+    skos:scopeNote "surv:SurveyPointPurpose" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:40.983137"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:40.887866"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/SurveyPoints/purpose/icsm-purpose.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

@@ -1,0 +1,12 @@
+preflabel,definition,notation,altlabel,related
+Measured, "Distances that have been physically measured including precal, original distances and lot/interest distances from physical measurements. Distances that are calculated from physically measured distances, such Sketch on Transfer boundaries and interest boundaries are also considered Measured",measured,,
+Calculated,"Cadastral Boundaries created under the Operational Directives, such as Survey Registration Minute 1/98 and Executive Minutes 17/90 and 10/92 are to be shown as ""Calculated"".",calculated,,
+Derived, Unsurveyed. Only applicable for mid azimuths and is derived from a mean of the reverse azimuths calculated from the two end points.,derived,,
+Described,Unsurveyed,described,,
+Approximate,Highly inaccurate,approximate,,
+Adopted,Adopted from previous dimension,adopted,,
+Conventional,Survey - Conventional Survey,conventional,,
+Conventional-unsurveyed lots,Survey with unsurveyed Lots(s) - Conventional Survey with unsurveyed Lots(s),conventional-unsurveyed-lots,,
+Compiled,No additional survey performed,compiled,,
+Special Survey Area,Survey in compliance with Survey Practice Guidelines for Subdivisions within Special Survey Areas (WA),SSA,,
+Coordinates,Survey by Coordinates,survey-by-coordinates,,

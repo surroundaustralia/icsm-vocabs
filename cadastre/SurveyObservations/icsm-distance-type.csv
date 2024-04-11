@@ -1,0 +1,9 @@
+preflabel,definition,notation,altlabel,related
+Ellipsoid,The minimal length of a curve that joins two survey marks on a reference ellipsoid,ellipsoid,,geodetic
+Geodetic,The minimal length of a curve that joins two survey marks on a geodetic reference ellipsoid,geodetic,,
+Slope,The reduced observed distance between two survey marks at ground level,slope,,
+Horizontal,The reduced observed distance between two survey marks further reduced to a horizontal plane,horizontal,,
+Ground,The reduced observed distance between two survey marks at ground level,ground,G,
+Mean Elevation, The reduced observed horizontal distance between two survey marks adjusted to the mean elevation of the line measured,mean-elevation,Horizontal ground distance at mean elevation,
+3D Vector,The reduced observed slope distance between two survey marks.,3d-vector,Slope,
+Spheroid,The shortest distance between two points along the surface of a reference spheroid,spheroid,S,Ellipsoid

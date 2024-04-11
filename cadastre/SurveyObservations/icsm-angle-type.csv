@@ -1,0 +1,7 @@
+preflabel,definition,notation,altlabel,related
+Bearing,The horizontal angle measured clockwise from the CRS meridian to the observed vector,bearing,,azimuth
+Angle,The acute horizontal angle measured from a reference vector to the observed vector,angle,,
+Azimuth,The horizontal angle measured clockwise from any reference meridian to the observed vector,azimuth,,bearing
+Vertical Angle,The vertical angle measured from the horizontal plane to the observed vector,v-angle,,
+Mid-azimuth,The mean of the forward azimuth at the start of the line and the reverse azimuth at the end of the line,mid-azimuth,,
+Subtended,"A subtended angle is an angle formed by two lines, or line segments that originate from the same point and extend to two different points on a circle's circumference.",subtended,,

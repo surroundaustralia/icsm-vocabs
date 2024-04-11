@@ -1,0 +1,123 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.opengis.net/def/crs/EPSG/0/4458> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "DUBLHT1960" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "4458" ;
+    skos:prefLabel "Dunedin-Bluff 1960 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5759> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "AUCKHT1946" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5759" ;
+    skos:prefLabel "Auckland 1946 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5760> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "BLUFHT1955" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5760" ;
+    skos:prefLabel "Bluff 1955 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5761> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "DUNEHT1958" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5761" ;
+    skos:prefLabel "Dunedin 1958 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5762> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "GISBHT1926" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5762" ;
+    skos:prefLabel "Gisborne 1926 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5763> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "LYTTHT1937" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5763" ;
+    skos:prefLabel "Lyttelton 1937 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5764> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "MOTUHT1953" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5764" ;
+    skos:prefLabel "Moturiki 1953 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5765> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NAPIHT1962" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5765" ;
+    skos:prefLabel "Napier 1962 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5766> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "NELSHT1955" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5766" ;
+    skos:prefLabel "Nelson 1955 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5767> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "ONTPHT1964" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5767" ;
+    skos:prefLabel "One Tree Point 1964 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5769> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "TARAHT1970" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5769" ;
+    skos:prefLabel "Taranaki 1970 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5770> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "WELLHT1953" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5770" ;
+    skos:prefLabel "Wellington 1953 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/5772> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:altLabel "STISHT1977" ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "5772" ;
+    skos:prefLabel "Stewart Island 1977 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0/7839> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "7839" ;
+    skos:prefLabel "NZVD2016 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Vertical Height Datums" ;
+    skos:scopeNote "termtype:AllowableCoordinateReferenceSystem" .
+
+[] a prov:Activity ;
+    prov:endedAtTime "2024-02-04T06:23:50.582593"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-04T06:23:50.485534"^^xsd:dateTime ;
+    prov:used [ a prov:Entity ;
+            dct:format "application/json" ;
+            dct:hasVersion "git:0f32332d11a6cc8231abe9ed2a14e854258b41a0" ;
+            rdfs:seeAlso <file:///home/runner/work/3d-csdm-profiles/3d-csdm-profiles/vocabularies/CSD-Header/nz-vhd.csv> ] ;
+    prov:wasAssociatedWith [ a prov:Agent,
+                schema:SoftwareApplication ;
+            rdfs:label "OGC-NA tools" ;
+            dct:hasVersion "0.3.35" ;
+            rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
+    prov:wasInformedBy [ dct:identifier "d6d0e2d7-4f80-4e92-8329-efda53896ae2" ] .
+

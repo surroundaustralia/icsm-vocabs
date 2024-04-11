@@ -1,0 +1,5 @@
+preflabel,definition,notation,altlabel,related
+Freehold,Parcel is Freehold Land,freehold,,
+Crown,Parcel is Crown Land,crown,,
+Leasehold,Parcel is Leasehold,leasehold,,
+Easement Area,"An are3a defining multiple easements. May be Freehold, Crown, or Leasehold land",easement-area,,

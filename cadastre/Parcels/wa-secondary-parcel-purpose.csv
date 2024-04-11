@@ -1,0 +1,61 @@
+preflabel,definition,notation,altlabel,related
+Interest,Interest or encumbrance,interest,,int
+Reserve,Reserve,reserve,,3
+Lease,Lease,lease,,4
+State Forest,State Forrest,state-forest,,5
+UCL,Unallocated Crown Land,ucl,,6
+Drain Reserve,Drain Reserve,drain-reserve,,8
+Timber Reserve,Timber Reserve,timber-reserve,,9
+Water Feature,Water Feature,water-feature,,11
+Tramway,Tramway,tramway,,12
+Marine Reserve,Marine Reserve,marine-reserve,,14
+Stock Route,Stock Route,stock-route,,15
+Parent of Survey Strata,Parent of Survey Strata,parent-of-survey strata,,22
+Surround,Surround,surround,,181
+Interest Surround,Interest Surround,interest-surround,,182
+Cancelled Surround,Cancelled Surround,cancelled-surround,,183
+Retired Surround,Retired Surround,retired-surround,,184
+Conversion,Conversion,conversion,,186
+Statutory Plan,Statutory Plan,statutory-plan,,187
+Superseded Crown,Superseded Crown,superseded-crown,,200
+Infrastructure 1,Infrastructure 1,infrastructure-1,,146
+Infrastructure 2,Infrastructure 2,infrastructure-2,,147
+Critical Port Areas (CPA),Critical Port Areas (CPA),critical-port-areas-cpa,,148
+ILUA,ILUA,ilua,,149
+LGA Town-site,LGA Town-site,LGA-town-site,,151
+Postal Locality,Postal Locality,postal-locality,,152
+Linked LGA,Linked LGA,linked-LGA,,153
+LGA Ward,LGA Ward,LGA-ward,,154
+PreGazetted LGA Ward,PreGazetted LGA Ward,pregazetted-LGA-ward,,155
+Project 1 Land,Project 1 Land,project-1-land,,156
+Project 2 Land,Project 2 Land,project-2-land,,157
+Project 3 Land,Project 3 Land,project-3-land,,158
+Project 4 Land,Project 4 Land,project-4-land,,159
+MLA,MLA,MLA,,160
+MLC,MLC,MLC,,161
+Proposed MLA Land,Proposed MLA Land,proposed-MLA-land,,162
+Proposed MLC Land,Proposed MLC Land,proposed-MLC-land,,163
+Pre Gazetted LGA Land,Pre Gazetted LGA Land,pre-gazetted-LGA-land,,164
+State Border,State Border,state-border,,165
+Land Division,Land Division,land-division,,166
+Land District,Land District,land-district,,167
+Agricultural Area,Agricultural Area,agricultural-area,,168
+Suburban Area,Suburban Area,suburban-area,,169
+Estate Area,Estate Area,estate-area,,170
+Town-site Land Act,Town-site Land Act,town-site-land-act,,171
+Special Settlement Area,Special Settlement Area,special-settlement-area,,172
+Riverpark Area,Riverpark Area,riverpark-area,,173
+Development Control Area,Development Control Area,development-control-area,,174
+Marine Park,Marine Park,marine-park,,177
+Marine Nature Reserve,Marine Nature Reserve,marine-nature-reserve,,178
+Marine Management Area,Marine Management Area,marine-management-area,,179
+Water Control Area,Water Control Area,water-control-area,,185
+Port Authority,Port Authority,port-authority,,190
+Marine & Harbour Area,Marine & Harbour Area,marine-and-harbour-area,,191
+Special Survey Area,Special Survey Area,SSA,,192
+Shipping and Pilotage Land,Shipping and Pilotage Land,shipping-and-pilotage-land,,193
+Railway Corridor,Railway Corridor,railway-corridor,,194
+DBNGP Corridor,DBNGP Corridor,DBNGP-corridor,,195
+LCMU (Native Title) NNTT,LCMU (Native Title) NNTT,LCMU-native-title-NNTT,,196
+LCMU (Native Title) Fed,LCMU (Native Title) Fed,LCMU-native-title-Fed,,197
+LCMU (Native Title) Det,LCMU (Native Title) Det,LCMU-native-title-Det,,198

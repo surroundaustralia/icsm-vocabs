@@ -1,0 +1,40 @@
+preflabel,definition,notation,altlabel,related
+Conversion,Derived from DCDB,conv,,
+Destroyed,The mark was destroyed,dest,,
+Damaged,The mark was damaged,dmgd,,
+Dangerous,,dngr,,
+Emplaced,New mark placed,empl,,
+Impracticable to Mark,The boundary mark could not be placed,impm,,
+Mark Found,The mark is in good condition and is suitable for survey purposes,mkfd,,NZ:Reliably Placed; VIC:Found
+Moved,The mark has been disturbed from its original position,move,Disturbed,WA:Out of Position
+Not Accessible,The mark was not accessible,nacc,,
+Searched For and Not Found,The mark has been searched for and could not be found,nfnd,,VIC:Not Found
+Not Specified,The condition of the mark was not determined while the survey was being conducted,nspe,,
+Reliably Placed,The mark is in good condition and is suitable for survey purposes,relb,Reliable,
+Removed,The mark was removed when the survey was conducted,remv,,VIC:Removed
+Submerged,The mark was submerged,subm,,
+Temporary,The mark used during the survey was only a temporary mark,temp,,
+Threatened,"The mark was in a position where it may become damaged or destroyed in future e.g., the mark is now the edge of a subsiding cliff",thrt,,
+Uncertain Existence,,unxt,,VIC:Unknown
+Unstable,The mark was in an unstable position,unst,,VIC:Loose
+Abandoned,,abandoned,,
+Disturbed,,disturbed,,VIC:Suspect
+Found,,found,,NZ:Mark Found
+Leaning,,leaning,,
+Loose,,loose,,NZ:Unstable
+Nipple Damaged,,nipple-damaged,,
+Not Found,,not-found,,NZ:Searched For and Not Found
+Not Used,,not-used,,
+OK,,ok,,
+Origin,,origin,,
+Origin unknown,,origin-unknown,,
+Plaque Missing,,plaque-missing,,
+Remains,,remains,,
+Removed,,removed,,NZ:Removed
+Replaced,,replaced,,
+Suspect,,suspect,,VIC:Unreliable
+Unknown,,unknown,,NZ:Uncertain Existence
+Rusted,,rusted,,
+Out of Position,,out-of-position,,NZ:Moved
+Online,,online,,
+Offset,,offset,,
