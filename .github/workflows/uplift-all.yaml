@@ -26,6 +26,8 @@ jobs:
           #          done
           python -m ogc.na.ingest_json --batch --all --skip-on-missing-context \
             --json-ld --ttl --work-dir . --domain-config .ogc/catalog.ttl
+      - name: Git pull before push
+        run: git pull
       - name: Add and commit
         uses: EndBug/add-and-commit@v9
         with:
