@@ -4,6 +4,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix profiles: <http://www.opengis.net/def/metamodel/profiles/> .
 
+_:ICSM_Cadastre a dcat:Catalog ;
+  dct:title "ICSM Cadastre Model Profile vocabularies" ;
+  dcat:dataset  _:vocabs-uplift ;
+  dcfg:breakme_hasProfileSource "sparql:http://defs-dev.opengis.net:8080/rdf4j-server/repositories/profiles",
+    ".ogc/profiles.ttl" ;
+  dcfg:ignoreProfileArtifactErrors true ;
+.
 
 _:vocabs-uplift a dcat:Dataset, dcfg:UpliftConfiguration ;
   dct:description "Cadastre Profile vocabularies uplift" ;
