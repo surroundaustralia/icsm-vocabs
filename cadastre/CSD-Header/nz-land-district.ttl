@@ -95,16 +95,16 @@
     skos:scopeNote "termtype:AdminUnit" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-04-11T01:58:39.574474"^^xsd:dateTime ;
-    prov:startedAtTime "2024-04-11T01:58:39.496746"^^xsd:dateTime ;
+    prov:endedAtTime "2024-04-11T06:11:36.058996"^^xsd:dateTime ;
+    prov:startedAtTime "2024-04-11T06:11:35.985750"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:16d4de41d1c500441eaaa7339af50639ee1281fe" ;
+            dct:hasVersion "git:29bbdd91c50914400e0758872364ec1cea2d1501" ;
             rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/CSD-Header/nz-land-district.csv> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
             dct:hasVersion "0.3.44" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
-    prov:wasInformedBy [ dct:identifier "f9843f24-b69c-4a50-840c-bab8670c1476" ] .
+    prov:wasInformedBy [ dct:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ] .
 
