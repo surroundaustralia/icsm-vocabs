@@ -272,16 +272,16 @@
     skos:scopeNote "surv:MonumentForm" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-04-11T06:11:35.556571"^^xsd:dateTime ;
-    prov:startedAtTime "2024-04-11T06:11:35.463205"^^xsd:dateTime ;
+    prov:endedAtTime "2024-07-30T00:18:08.894451"^^xsd:dateTime ;
+    prov:startedAtTime "2024-07-30T00:18:08.801581"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:29bbdd91c50914400e0758872364ec1cea2d1501" ;
+            dct:hasVersion "git:66a8ff4d5be1d1325924579f48173e14fea41ad0" ;
             rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/cadastre/SurveyPoints/monument/wa-monument-type.csv> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.44" ;
+            dct:hasVersion "0.3.49" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] ;
-    prov:wasInformedBy [ dct:identifier "42611fe7-ad51-40e1-adf8-e3a0f1ee7a83" ] .
+    prov:wasInformedBy [ dct:identifier "7b8dc18d-b6bd-4abc-8ba5-d4554db0ca34" ] .
 
