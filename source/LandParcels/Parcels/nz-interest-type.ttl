@@ -8,17 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-interest-type.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:Ne76dc9024a1b4ff0babda8857b4d9522 ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Ne302f0ada5794be88a4940ffc7128e5f ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:17:25.873938"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:17:25.796860"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:24:56.590773"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:56.512818"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-interest-type.csv> ] ;
-            prov:wasAssociatedWith _:Ne76dc9024a1b4ff0babda8857b4d9522 ;
+            prov:wasAssociatedWith _:Ne302f0ada5794be88a4940ffc7128e5f ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
 
 <https://linked.data.gov.au/def/csdm/nz-interest-type/a> a skos:Concept,
         surv:InterestType ;
@@ -48,7 +49,7 @@
     skos:prefLabel "NZ Memorial Types" ;
     skos:scopeNote "surv:InterestType" .
 
-_:Ne76dc9024a1b4ff0babda8857b4d9522 a prov:Agent,
+_:Ne302f0ada5794be88a4940ffc7128e5f a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

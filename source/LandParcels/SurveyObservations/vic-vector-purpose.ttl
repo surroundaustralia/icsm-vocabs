@@ -8,17 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/vic-vector-purpose.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N3105616c67464d11badc6ed77f2897d5 ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N5604efafc9ba42f1ab478735ea7ab338 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:17:24.505247"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:17:24.431806"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:25:01.944287"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:01.867669"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/vic-vector-purpose.csv> ] ;
-            prov:wasAssociatedWith _:N3105616c67464d11badc6ed77f2897d5 ;
+            prov:wasAssociatedWith _:N5604efafc9ba42f1ab478735ea7ab338 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
 
 <https://linked.data.gov.au/def/csdm/vic-vector-purpose/normal> a skos:Concept,
         termtype:VectorPurpose ;
@@ -52,7 +53,7 @@
     skos:prefLabel "VIC Vector Purpose" ;
     skos:scopeNote "termtype:VectorPurpose" .
 
-_:N3105616c67464d11badc6ed77f2897d5 a prov:Agent,
+_:N5604efafc9ba42f1ab478735ea7ab338 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

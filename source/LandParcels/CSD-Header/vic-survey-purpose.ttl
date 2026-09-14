@@ -8,17 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-survey-purpose.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N941dc3ed510b405bbfd82d021ba98dc4 ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N2694bb63dcf543048305eab1c1140dc6 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:17:26.072517"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:17:25.961536"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:25:03.495679"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:03.386923"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/vic-survey-purpose.csv> ] ;
-            prov:wasAssociatedWith _:N941dc3ed510b405bbfd82d021ba98dc4 ;
+            prov:wasAssociatedWith _:N2694bb63dcf543048305eab1c1140dc6 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
 
 <https://linked.data.gov.au/def/csdm/vic-survey-purpose/22-consolidation> a skos:Concept,
         surv:SurveyPurpose ;
@@ -258,7 +259,7 @@
     skos:prefLabel "VIC Survey Purpose" ;
     skos:scopeNote "surv:SurveyPurpose" .
 
-_:N941dc3ed510b405bbfd82d021ba98dc4 a prov:Agent,
+_:N2694bb63dcf543048305eab1c1140dc6 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

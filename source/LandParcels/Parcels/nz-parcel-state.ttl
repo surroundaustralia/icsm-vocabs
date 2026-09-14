@@ -8,17 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-parcel-state.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N0b719d5e13ff4078a9d12a2a0a0fab4d ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nff910b9a5db4430b92c62eab5d659bc0 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:17:29.251468"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:17:29.176087"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:25:01.782864"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:01.703192"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/nz-parcel-state.csv> ] ;
-            prov:wasAssociatedWith _:N0b719d5e13ff4078a9d12a2a0a0fab4d ;
+            prov:wasAssociatedWith _:Nff910b9a5db4430b92c62eab5d659bc0 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
 
 <https://linked.data.gov.au/def/csdm/nz-parcel-state/a> a skos:Concept,
         termtype:ParcelState ;
@@ -73,7 +74,7 @@
     skos:prefLabel "NZ Parcel State" ;
     skos:scopeNote "termtype:ParcelState" .
 
-_:N0b719d5e13ff4078a9d12a2a0a0fab4d a prov:Agent,
+_:Nff910b9a5db4430b92c62eab5d659bc0 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

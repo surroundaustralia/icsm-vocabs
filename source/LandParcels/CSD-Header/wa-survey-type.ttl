@@ -8,17 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-survey-type.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N06b2655fe2814026bd400d36f24e9b2e ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:N10ca20c453f54fe581fa1827890b3a0f ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:17:15.375399"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:17:15.286693"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:25:03.886591"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:25:03.799900"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/wa-survey-type.csv> ] ;
-            prov:wasAssociatedWith _:N06b2655fe2814026bd400d36f24e9b2e ;
+            prov:wasAssociatedWith _:N10ca20c453f54fe581fa1827890b3a0f ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
 
 <https://linked.data.gov.au/def/csdm/wa-survey-type/SSA> a skos:Concept,
         termtype:SurveyType ;
@@ -136,7 +137,7 @@
     skos:prefLabel "WA CSD Survey Type" ;
     skos:scopeNote "termtype:SurveyType" .
 
-_:N06b2655fe2814026bd400d36f24e9b2e a prov:Agent,
+_:N10ca20c453f54fe581fa1827890b3a0f a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;

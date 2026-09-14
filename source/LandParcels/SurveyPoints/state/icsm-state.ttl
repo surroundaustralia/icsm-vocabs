@@ -8,17 +8,18 @@
 
 <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/state/icsm-state.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:Naf3503b325dd41d69a5e5f94c450ae47 ;
+    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
+    prov:wasAttributedTo _:Nd6dc1fea0c9743c3b93d53fa2211d8b2 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-09-14T12:17:16.292478"^^xsd:dateTime ;
-            prov:startedAtTime "2026-09-14T12:17:16.213757"^^xsd:dateTime ;
+            prov:endedAtTime "2026-09-14T12:24:54.300024"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:24:54.224131"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    dct:hasVersion "git:7b7d2a1809aa47eaf3305a29017f591e9863ed2c" ;
                     rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/state/icsm-state.csv> ] ;
-            prov:wasAssociatedWith _:Naf3503b325dd41d69a5e5f94c450ae47 ;
+            prov:wasAssociatedWith _:Nd6dc1fea0c9743c3b93d53fa2211d8b2 ;
             prov:wasInformedBy [ a prov:Activity ;
-                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+                    dct:identifier "79bd5880-7ecc-4552-b8cd-9008f8d13a97" ] ] .
 
 <https://linked.data.gov.au/def/csdm/icsm-monument-state/abandoned> a skos:Concept,
         surv:SurveyPointState ;
@@ -48,7 +49,7 @@
     skos:prefLabel "ICSM Monument State" ;
     skos:scopeNote "surv:SurveyPointState" .
 
-_:Naf3503b325dd41d69a5e5f94c450ae47 a prov:Agent,
+_:Nd6dc1fea0c9743c3b93d53fa2211d8b2 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
     dct:hasVersion "0.5.34" ;
