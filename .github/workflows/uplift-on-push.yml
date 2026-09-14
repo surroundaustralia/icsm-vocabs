@@ -17,7 +17,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Get changed files
@@ -27,7 +27,7 @@ jobs:
           since_last_remote_commit: true
           separator: ','
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - name: Install dependencies
@@ -41,7 +41,7 @@ jobs:
           python -m ogc.na.ingest_json --batch --skip-on-missing-context \
             --json-ld --ttl --work-dir . --domain-config .ogc/catalog.ttl ${MOD_FILES}
       - name: Add and commit
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
           message: "Semantic uplift on push"
           default_author: github_actions
