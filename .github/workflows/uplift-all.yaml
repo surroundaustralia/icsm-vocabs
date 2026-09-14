@@ -10,9 +10,9 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - name: Install dependencies
@@ -29,7 +29,7 @@ jobs:
       - name: Git pull before push
         run: git pull
       - name: Add and commit
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
           message: "Semantic uplift of all vocabulary source files"
           default_author: github_actions
