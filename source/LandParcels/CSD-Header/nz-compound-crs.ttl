@@ -1,0 +1,38 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-compound-crs.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:N5cef7d9c868f4654a89120db4cd94507 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:17:17.336269"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:17:17.252823"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-compound-crs.csv> ] ;
+            prov:wasAssociatedWith _:N5cef7d9c868f4654a89120db4cd94507 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+
+<http://www.opengis.net/def/crs/EPSG/0/9528> a skos:Concept,
+        termtype:AllowableCoordinateReferenceSystem ;
+    skos:inScheme <http://www.opengis.net/def/crs/EPSG/0> ;
+    skos:notation "9528" ;
+    skos:prefLabel "NZGD2000 + NZVD2016 height" .
+
+<http://www.opengis.net/def/crs/EPSG/0> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Compound Coordinate Reference Systems" ;
+    skos:scopeNote "termtype:AllowableCoordinateReferenceSystem" .
+
+_:N5cef7d9c868f4654a89120db4cd94507 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

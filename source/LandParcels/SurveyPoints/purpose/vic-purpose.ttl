@@ -1,0 +1,92 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/purpose/vic-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:N91a3d6ce271b49a2862614e809b07e49 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:17:18.099815"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:17:18.009353"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/purpose/vic-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N91a3d6ce271b49a2862614e809b07e49 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/administrative> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "administrative" ;
+    skos:prefLabel "administrative" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "boundary" ;
+    skos:prefLabel "boundary" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/control> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "control" ;
+    skos:prefLabel "control" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/monument> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "monument" ;
+    skos:prefLabel "monument" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/natural-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "natural-boundary" ;
+    skos:prefLabel "natural boundary" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/occupation> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "occupation" ;
+    skos:prefLabel "occupation" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/reference> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "reference" ;
+    skos:prefLabel "reference" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/sideshot> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "sideshot" ;
+    skos:prefLabel "sideshot" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/traverse> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "traverse" ;
+    skos:prefLabel "traverse" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose/unmarked-boundary> a skos:Concept,
+        surv:SurveyPointPurpose ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> ;
+    skos:notation "unmarked-boundary" ;
+    skos:prefLabel "unmarked boundary" .
+
+<https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Survey Point Purpose" ;
+    skos:scopeNote "surv:SurveyPointPurpose" .
+
+_:N91a3d6ce271b49a2862614e809b07e49 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

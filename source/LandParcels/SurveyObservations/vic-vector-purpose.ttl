@@ -1,0 +1,60 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/vic-vector-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:N3105616c67464d11badc6ed77f2897d5 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:17:24.505247"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:17:24.431806"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/vic-vector-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N3105616c67464d11badc6ed77f2897d5 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+
+<https://linked.data.gov.au/def/csdm/vic-vector-purpose/normal> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Used for all boundaries" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-vector-purpose> ;
+    skos:notation "normal" ;
+    skos:prefLabel "Normal" .
+
+<https://linked.data.gov.au/def/csdm/vic-vector-purpose/sideshot> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Used for all radiations" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-vector-purpose> ;
+    skos:notation "sideshot" ;
+    skos:prefLabel "Sideshot" .
+
+<https://linked.data.gov.au/def/csdm/vic-vector-purpose/topo> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Used for all secondary interest fixing (e.g. to fix a floating easement to nearest lot corner)" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-vector-purpose> ;
+    skos:notation "topo" ;
+    skos:prefLabel "Topo" .
+
+<https://linked.data.gov.au/def/csdm/vic-vector-purpose/traverse> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "Used for all Traverses" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/vic-vector-purpose> ;
+    skos:notation " traverse" ;
+    skos:prefLabel "Traverse" .
+
+<https://linked.data.gov.au/def/csdm/vic-vector-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "VIC Vector Purpose" ;
+    skos:scopeNote "termtype:VectorPurpose" .
+
+_:N3105616c67464d11badc6ed77f2897d5 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

@@ -1,0 +1,84 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/nz-vector-purpose.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:N620b9a655ccc4b20b747fb6dae7851dc ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:17:25.278607"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:17:25.195745"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyObservations/nz-vector-purpose.csv> ] ;
+            prov:wasAssociatedWith _:N620b9a655ccc4b20b747fb6dae7851dc ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose/adopted> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "The dimensions of the observation were adopted from a previous survey where the dimensions had been measured" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-vector-purpose> ;
+    skos:notation "adopted" ;
+    skos:prefLabel "adopted" .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose/calculated> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "The dimensions of the observation where calculated" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-vector-purpose> ;
+    skos:notation "calculated" ;
+    skos:prefLabel "calculated" .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose/measured> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "The dimensions of the observation were measured when the survey was conducted" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-vector-purpose> ;
+    skos:notation "measured" ;
+    skos:prefLabel "measured" .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose/pseudo> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:definition "The dimensions of the observation were calculated by Landonline from the coordinates of the local and remote setup's" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-vector-purpose> ;
+    skos:notation "pseudo" ;
+    skos:prefLabel "pseudo" .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose/reinadopted> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "rein adopted" ;
+    skos:definition "The dimensions of the observation were used for a reinstated boundary – no parcels are created" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-vector-purpose> ;
+    skos:notation "reinadopted" ;
+    skos:prefLabel "reinadopted" .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose/reincalculated> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "rein calculated" ;
+    skos:definition "The dimensions of the observation were used for a reinstated boundary – no parcels are created" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-vector-purpose> ;
+    skos:notation "reincalculated" ;
+    skos:prefLabel "reincalculated" .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose/scaled> a skos:Concept,
+        termtype:VectorPurpose ;
+    skos:altLabel "calculated" ;
+    skos:definition "The dimensions of the observation were scaled from a graphical plot" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-vector-purpose> ;
+    skos:notation "scaled" ;
+    skos:prefLabel "scaled" .
+
+<https://linked.data.gov.au/def/csdm/nz-vector-purpose> a skos:ConceptScheme ;
+    skos:prefLabel "NZ Vector Purpose" ;
+    skos:scopeNote "termtype:VectorPurpose" .
+
+_:N620b9a655ccc4b20b747fb6dae7851dc a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

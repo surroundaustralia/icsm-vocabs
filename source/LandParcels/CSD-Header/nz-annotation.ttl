@@ -1,0 +1,38 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-annotation.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:Nc823a83014f34e09bb7949dbbcd26219 ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:17:17.251087"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:17:17.174644"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/CSD-Header/nz-annotation.csv> ] ;
+            prov:wasAssociatedWith _:Nc823a83014f34e09bb7949dbbcd26219 ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+
+<https://linked.data.gov.au/def/csdm/nz-annotation/certification> a skos:Concept,
+        termtype:Annotation ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/nz-annotation> ;
+    skos:notation "certification" ;
+    skos:prefLabel "Certification" .
+
+<https://linked.data.gov.au/def/csdm/nz-annotation> a skos:ConceptScheme ;
+    skos:prefLabel "NZ CSD Annotation" ;
+    skos:scopeNote "termtype:Annotation" .
+
+_:Nc823a83014f34e09bb7949dbbcd26219 a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

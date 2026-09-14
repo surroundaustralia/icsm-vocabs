@@ -1,0 +1,67 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix surv: <https://linked.data.gov.au/def/csdm/surveyfeatures/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-parcel-type.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:N194fbdbecabc4c9f824d7516d078598c ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:17:19.237860"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:17:19.151790"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/Parcels/wa-parcel-type.csv> ] ;
+            prov:wasAssociatedWith _:N194fbdbecabc4c9f824d7516d078598c ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-type/community-titles-building-scheme> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Plan is Community Title" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-type> ;
+    skos:notation "community-titles-building-scheme" ;
+    skos:prefLabel "Community Titles (Building) Scheme" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-type/community-titles-land-scheme> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Plan is Community Title" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-type> ;
+    skos:notation "community-titles-land-scheme" ;
+    skos:prefLabel "Community Titles (Land) Scheme" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-type/crown> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Parcel is Crown Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-type> ;
+    skos:notation "crown" ;
+    skos:prefLabel "Crown" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-type/freehold> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Parcel is Freehold Land" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-type> ;
+    skos:notation "freehold" ;
+    skos:prefLabel "Freehold" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-type/leasehold> a skos:Concept,
+        surv:ParcelType ;
+    skos:definition "Parcel is Leasehold" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-parcel-type> ;
+    skos:notation "leasehold" ;
+    skos:prefLabel "Leasehold" .
+
+<https://linked.data.gov.au/def/csdm/wa-parcel-type> a skos:ConceptScheme ;
+    skos:prefLabel "WA Parcel Type" ;
+    skos:scopeNote "surv:ParcelType" .
+
+_:N194fbdbecabc4c9f824d7516d078598c a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+

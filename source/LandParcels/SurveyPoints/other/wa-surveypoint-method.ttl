@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix termtype: <https://linked.data.gov.au/def/csdm/termtypes/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/other/wa-surveypoint-method.ttl> a prov:Entity ;
+    dct:format "text/turtle" ;
+    prov:wasAttributedTo _:Nee23ac89f01440209d4e842f663f3ebb ;
+    prov:wasGeneratedBy [ a prov:Activity ;
+            prov:endedAtTime "2026-09-14T12:17:17.603318"^^xsd:dateTime ;
+            prov:startedAtTime "2026-09-14T12:17:17.516150"^^xsd:dateTime ;
+            prov:used [ a prov:Entity ;
+                    dct:format "application/json" ;
+                    dct:hasVersion "git:d8feae9e4acfceed386a15a2ca0b9d49c24a0e36" ;
+                    rdfs:seeAlso <file:///home/runner/work/icsm-vocabs/icsm-vocabs/source/LandParcels/SurveyPoints/other/wa-surveypoint-method.csv> ] ;
+            prov:wasAssociatedWith _:Nee23ac89f01440209d4e842f663f3ebb ;
+            prov:wasInformedBy [ a prov:Activity ;
+                    dct:identifier "4e0e83d0-0ded-41b0-b4bb-6115b4593eb3" ] ] .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/D> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Phase 1 Least Square Adjustment - minimally constrained?" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "D" ;
+    skos:prefLabel "Least Squares Adjustment (Phase 1)" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/F> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Transformation - Map Projection Conversions" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "F" ;
+    skos:prefLabel "Map Projection Transformation" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/G> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Graphical Construction - e.g. CO-GO, calculated, digitised" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "G" ;
+    skos:prefLabel "Graphical" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/K> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Keyed In - e.g. by co ordinates" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "K" ;
+    skos:prefLabel "Coordinate entry" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/L> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Phase 2 Least Square Adjustment - fully constrained?" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "L" ;
+    skos:prefLabel "Least Squares Adjustment (Phase 2)" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/P> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Precal - all SSA surveys" ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "P" ;
+    skos:prefLabel "Precalculated" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method/T> a skos:Concept,
+        termtype:PointCreationMethod ;
+    skos:definition "Traverse Adjustment - generally all traditional surveys that are not precalculated." ;
+    skos:inScheme <https://linked.data.gov.au/def/csdm/wa-surveypoint-method> ;
+    skos:notation "T" ;
+    skos:prefLabel "Traverse Adjustment" .
+
+<https://linked.data.gov.au/def/csdm/wa-surveypoint-method> a skos:ConceptScheme ;
+    skos:prefLabel "WA Survey Point Creation Method" ;
+    skos:scopeNote "termtype:PointCreationMethod" .
+
+_:Nee23ac89f01440209d4e842f663f3ebb a prov:Agent,
+        schema:SoftwareApplication ;
+    rdfs:label "OGC-NA tools" ;
+    dct:hasVersion "0.5.34" ;
+    rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
+
