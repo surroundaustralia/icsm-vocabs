@@ -64,6 +64,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+:certificate-of-title
+    a
+        skos:Concept ,
+        termtype:DocType ;
+    skos:definition "An official document issued by an appropriate jurisdictional authority identifying the owner(s) of Real property along with any encumbrances over the property." ;
+    skos:inScheme cs: ;
+    skos:notation "certificate-of-title" ;
+    skos:prefLabel "Certificate of Title" ;
+    skos:topConceptOf cs: ;
+.
+
 :csd
     a
         skos:Concept ,
@@ -227,6 +238,7 @@ cs:
         :2d-plan-survey-sheet ,
         :3d-plan ,
         :3d-plan-survey-sheet ,
+        :certificate-of-title ,
         :csd ,
         :field-record ,
         :field-record-certificate ,
