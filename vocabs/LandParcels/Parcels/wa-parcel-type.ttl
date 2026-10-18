@@ -71,7 +71,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Parcel is a miscellaneous parcel" ;
     skos:inScheme cs: ;
     skos:notation "miscellaneous" ;
-    skos:prefLabel "miscellaneous" ;
+    skos:prefLabel "Miscellaneous" ;
     skos:topConceptOf cs: ;
 .
 
@@ -82,7 +82,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Parcel is a road casement" ;
     skos:inScheme cs: ;
     skos:notation "road" ;
-    skos:prefLabel "road" ;
+    skos:prefLabel "Road" ;
     skos:topConceptOf cs: ;
 .
 

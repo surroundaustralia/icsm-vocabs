@@ -47,7 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         surv:Distance ;
-    skos:altLabel "G" ;
+    skos:altLabel "Grid" ;
     skos:definition "The distance between two survey marks at ground level on a defined map projection" ;
     skos:inScheme cs: ;
     skos:notation "grid" ;
