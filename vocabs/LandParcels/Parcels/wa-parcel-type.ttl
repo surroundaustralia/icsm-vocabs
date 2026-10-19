@@ -79,7 +79,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         surv:ParcelType ;
-    skos:definition "Parcel is a road casement" ;
+    skos:definition "Parcel is a road casement, or road reserve" ;
     skos:inScheme cs: ;
     skos:notation "road" ;
     skos:prefLabel "Road" ;
