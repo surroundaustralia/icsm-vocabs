@@ -9,6 +9,17 @@ PREFIX termtype: <https://linked.data.gov.au/def/csdm/termtypes/>
 PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+:height-limit-description
+    a
+        skos:Concept ,
+        termtype:Annotation ;
+    skos:definition "Plan annotation stating a vertical limit relative to a height reference" ;
+    skos:inScheme cs: ;
+    skos:notation "height-limit-description" ;
+    skos:prefLabel "Height limit description" ;
+    skos:topConceptOf cs: ;
+.
+
 :parcel-derived
     a
         skos:Concept ,
@@ -39,6 +50,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:notation "r-26a" ;
     skos:prefLabel "Special Survey Area Guidelines" ;
+    skos:topConceptOf cs: ;
+.
+
+:r-4
+    a
+        skos:Concept ,
+        termtype:Annotation ;
+    skos:definition "Survey carried out under Regulation 4 Compiled Plan, Transfer of Land (Surveys) Regulations 1955" ;
+    skos:inScheme cs: ;
+    skos:notation "r-4" ;
+    skos:prefLabel "Regulation 4 Compiled Plan" ;
     skos:topConceptOf cs: ;
 .
 
@@ -101,20 +123,22 @@ cs:
     a skos:ConceptScheme ;
     skos:definition "WA CSD Annotation"@en ;
     skos:hasTopConcept
+        :height-limit-description ,
         :parcel-derived ,
         :public-acquisition ,
         :r-26a ,
+        :r-4 ,
         :sp ,
         :surveyed-dimensions ,
         :total-area ,
         :transfer-of-land-exempt ,
         :unsurveyed-dimensions ;
-    skos:historyNote """2025-05 NJC: Added status experimental""" ;
+    skos:historyNote "2025-05 NJC: Added status experimental" ;
     skos:prefLabel "WA CSD Annotation" ;
     skos:scopeNote "termtype:Annotation" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2025-05-23"^^xsd:date ;
+    schema:dateModified "2026-10-13"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
