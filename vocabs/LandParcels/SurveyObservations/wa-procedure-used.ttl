@@ -112,10 +112,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a
         skos:Concept ,
         sosa:Procedure ;
-    skos:altLabel " such Sketch on Transfer boundaries and interest boundaries are also considered Measured\"" ;
-    skos:definition " \"Distances that have been physically measured including precal" ;
+    skos:definition "Distances that have been physically measured including precal, original distances and lot/interest distances from physical measurements. Distances that are calculated from physically measured distances, such Sketch on Transfer boundaries and interest boundaries are also considered Measured" ;
     skos:inScheme cs: ;
-    skos:notation " original distances and lot/interest distances from physical measurements. Distances that are calculated from physically measured distances" ;
+    skos:notation "measured" ;
     skos:prefLabel "Measured" ;
     skos:topConceptOf cs: ;
 .
@@ -146,12 +145,12 @@ cs:
         :described ,
         :measured ,
         :survey-by-coordinates ;
-    skos:historyNote """2025-05 NJC: Added status experimental""" ;
+    skos:historyNote "2025-05 NJC: Added status experimental" ;
     skos:prefLabel "WA Survey Procedures" ;
     skos:scopeNote "sosa:Procedure" ;
     schema:creator <https://linked.data.gov.au/org/csdm-pg> ;
     schema:dateCreated "2022-03-18"^^xsd:date ;
-    schema:dateModified "2025-05-23"^^xsd:date ;
+    schema:dateModified "2026-10-12"^^xsd:date ;
     schema:keywords unggim:LandParcels ;
     schema:publisher <https://linked.data.gov.au/org/icsm> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;

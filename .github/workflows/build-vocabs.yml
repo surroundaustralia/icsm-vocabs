@@ -1,0 +1,66 @@
+name: Build vocabularies from CSV sources
+
+# Uplifts the CSVs in source/ to Turtle, validates the results against the loading
+# requirements in manifest.ttl and, if everything passes, publishes them to vocabs/.
+# If anything fails, the drafts and a validation report are committed to
+# source/ttl-drafts/ instead and the run fails. See "Building vocabularies" in README.md.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'source/**/*.csv'
+      - 'source/**/*.meta.ttl'
+      - 'source/vocabs-uplift.yml'
+      - '.ogc/**'
+      - 'manifest.ttl'
+      - 'labels.ttl'
+      - 'scripts/build_vocabs.py'
+      - 'scripts/requirements.txt'
+
+concurrency:
+  group: build-vocabs
+  cancel-in-progress: false
+
+jobs:
+  build-vocabs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v5
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      - name: Build and validate vocabularies
+        id: build
+        continue-on-error: true
+        run: python scripts/build_vocabs.py
+      - name: Upload validation report
+        if: steps.build.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: vocab-build-drafts
+          path: source/ttl-drafts/
+      - name: Add and commit
+        uses: EndBug/add-and-commit@v10
+        with:
+          add: '["vocabs", "source"]'
+          message: ${{ steps.build.outcome == 'success' && 'Build vocabularies from CSV sources' || 'Vocabulary build failed - drafts and report in source/ttl-drafts' }}
+          default_author: github_actions
+          pull: '--rebase --autostash'
+      - name: Fail on validation errors
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "::error file=source/ttl-drafts/validation-report.md::Vocabulary validation failed - nothing was published to vocabs/. See source/ttl-drafts/validation-report.md"
+          exit 1
