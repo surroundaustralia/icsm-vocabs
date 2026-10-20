@@ -34,7 +34,7 @@ history_note = (
         "from https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes.\n\n" +
         "The only changes have been to remove the top-level 'Data Theme' Concept and to add ConceptScheme and Concept "
         "elements required for the VocPub profile of SKOS "
-        "(https://w3id.org/profile/vocpub/spec)"
+        "(https://linked.data.gov.au/def/vocpub/spec)"
 )
 g.add((CS, SKOS.historyNote, Literal(history_note)))
 g.add((

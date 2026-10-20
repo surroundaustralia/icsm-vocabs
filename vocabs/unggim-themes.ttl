@@ -565,7 +565,7 @@ cs:
 
 This vocabulary is a slightly reformatted version of the original obtained from https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes.
 
-The only changes have been to remove the top-level 'Data Theme' Concept and to add ConceptScheme and Concept elements required for the VocPub profile of SKOS (https://w3id.org/profile/vocpub/spec)""" ;
+The only changes have been to remove the top-level 'Data Theme' Concept and to add ConceptScheme and Concept elements required for the VocPub profile of SKOS (https://linked.data.gov.au/def/vocpub/spec)""" ;
     skos:prefLabel "UN-GGIM Data Themes"@en ;
     foaf:homepage "https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes" ;
     schema:citation "https://linkeddataops.adaptcentre.ie/vocabularies/unggim-data-themes"^^xsd:anyURI ;
