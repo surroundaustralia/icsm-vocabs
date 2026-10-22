@@ -218,3 +218,58 @@ Note that just like the original form of this vocabulary, while it is a SKOS voc
 <https://www.epimorphics.com>
     schema:name "Epimorphics" ;
 .
+
+
+<https://linked.data.gov.au/org/act>
+    a schema:Organization ;
+    schema:name "Australian Capital Territory Government" ;
+    schema:url "https://www.act.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/nt>
+    a schema:Organization ;
+    schema:name "Northern Territory Government" ;
+    schema:url "https://www.nt.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/nsw>
+    a schema:Organization ;
+    schema:name "New South Wales Government" ;
+    schema:url "https://www.nsw.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/qld>
+    a schema:Organization ;
+    schema:name "Queensland Government" ;
+    schema:url "https://www.nsw.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/sa>
+    a schema:Organization ;
+    schema:name "South Australian Government" ;
+    schema:url "https://www.sa.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/tas>
+    a schema:Organization ;
+    schema:name "Tasmanian Government" ;
+    schema:url "https://www.tas.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/vic>
+    a schema:Organization ;
+    schema:name "Victorian Government" ;
+    schema:url "https://www.vic.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/wa>
+    a schema:Organization ;
+    schema:name "Western Australian Government" ;
+    schema:url "https://www.wa.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/aad>
+    a schema:Organization ;
+    schema:name "Australian Antarctic Division" ;
+    schema:url "https://www.antarctica.gov.au"^^xsd:anyURI ;
+.
