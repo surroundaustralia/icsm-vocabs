@@ -38,9 +38,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 import kurra.shacl
-from prezmanifest.utils import get_background_graph
-from prezmanifest.validator import ManifestValidationError
-from prezmanifest.validator import validate as validate_manifest
+from kgm.utils import get_background_graph
+from kgm.validator import ManifestValidationError
+from kgm.validator import validate as validate_manifest
 from rdflib import BNode, Graph, Literal, URIRef
 from rdflib.compare import isomorphic
 from rdflib.namespace import DCTERMS, PROF, RDF, SDO, SKOS, XSD
@@ -481,7 +481,7 @@ def main() -> int:
     parser.add_argument(
         "--skip-manifest-validation",
         action="store_true",
-        help="Skip the final whole-manifest prezmanifest validation (faster, for local iteration)",
+        help="Skip the final whole-manifest kgm validation (faster, for local iteration)",
     )
     args = parser.parse_args()
 

@@ -96,6 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/geocode-types> ,
         <https://linked.data.gov.au/def/gn-affix> ,
         <https://linked.data.gov.au/def/gn-part-types> ,
+        <https://example.com/def/gn-status-type> ,
         <https://linked.data.gov.au/def/go-categories> ,
         <https://linked.data.gov.au/def/ground-relationship> ,
         <https://linked.data.gov.au/def/lifecycle-stage-types> ,

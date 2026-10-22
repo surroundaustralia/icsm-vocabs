@@ -1,0 +1,856 @@
+PREFIX : <https://example.com/def/gn-status-types/>
+PREFIX cs: <https://example.com/def/gn-status-types>
+PREFIX droles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX unggim: <https://linked.data.gov.au/def/unggim-themes/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:aad
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Australian Antarctic Division"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :disappeared ,
+        :historical ,
+        :official ,
+        :recorded ;
+    skos:prefLabel "Australian Antarctic Division's Geographic Name Status Types"@en ;
+.
+
+:act
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Australian Capital Territory"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :degazetted ,
+        :deleted ,
+        :effective ,
+        :gazetted ,
+        :official ,
+        :proposed ,
+        :retired ;
+    skos:prefLabel "Australian Capital Territory's Geographic Name Status Types"@en ;
+.
+
+:aho
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Australian Hydrographic Office"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :historical ,
+        :official ;
+    skos:prefLabel "Australian Hydrographic Office's Geographic Name Status Types"@en ;
+.
+
+:nsw
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by New South Wales"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :abandoned ,
+        :advertise ,
+        :closed ,
+        :comment ,
+        :concurred ,
+        :consider ,
+        :deferred ,
+        :disallowed ,
+        :dual ,
+        :historical ,
+        :min-rec ,
+        :official ,
+        :official-edu ,
+        :official-np ,
+        :official-recorded ,
+        :pending-endorsement ,
+        :pending-gazette ,
+        :proposed ,
+        :reconsider ,
+        :recorded ,
+        :review-applicant ,
+        :review-secretariat ,
+        :withdrawn ;
+    skos:prefLabel "New South Wales's Geographic Name Status Types"@en ;
+.
+
+:nt
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Northern Territory"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :assigned ,
+        :historical ,
+        :official ,
+        :recorded ,
+        :revoked ;
+    skos:prefLabel "Northern Territory's Geographic Name Status Types"@en ;
+.
+
+:qld
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Queensland"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :approved ,
+        :assigned ,
+        :collected ,
+        :disallowed ,
+        :historical ,
+        :not-approved ,
+        :proposed ,
+        :recorded ;
+    skos:prefLabel "Queensland's Geographic Name Status Types"@en ;
+.
+
+:sa
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by South Australia"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :aboriginal ,
+        :dept ,
+        :dept-historic ,
+        :geog ,
+        :geog-historic ,
+        :proposed ,
+        :rec-historic ,
+        :recorded ;
+    skos:prefLabel "South Australia's Geographic Name Status Types"@en ;
+.
+
+:tas
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Tasmania"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :disallowed ,
+        :historical ,
+        :nfp-confidential ,
+        :nfp-historical ,
+        :nfp-omitted ,
+        :nfp-reserved ,
+        :nfp-superseded ,
+        :normal ,
+        :recorded ;
+    skos:prefLabel "Tasmania's Geographic Name Status Types"@en ;
+.
+
+:vic
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Victoria"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :archived ,
+        :base ,
+        :collected ,
+        :dual ,
+        :historical ,
+        :official ,
+        :recorded ;
+    skos:prefLabel "Victoria's Geographic Name Status Types"@en ;
+.
+
+:wa
+    a skos:Collection ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic name status types utilised by Western Australia"@en ;
+    skos:inScheme cs: ;
+    skos:member
+        :collected ,
+        :confidential ,
+        :estate ,
+        :historical ,
+        :official ,
+        :recorded ;
+    skos:prefLabel "Western Australia's Geographic Name Status Types"@en ;
+.
+
+:unapproved
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Unapproved names - applied to names that have been proposed but not approved by the Geographical Names Advisory Committee. Are included in the gazetteer for information only and should NOT be used."@en ;
+    skos:historyNote "Sourced from SA" ;
+    skos:inScheme cs: ;
+    skos:notation "UNAP"^^<https://example.com/dataset/sa-gn/datatype/sappa> ;
+    skos:prefLabel "Unapproved"@en ;
+    schema:creator <https://linked.data.gov.au/org/sa> ;
+.
+
+:abandoned
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "A place name approved by Board but later withdrawn due to objections"@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Abandoned"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:aboriginal
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :collected ;
+    skos:definition "Aboriginal name - applied to the Aboriginal name of features that also have a European name."@en ;
+    skos:historyNote "Sourced from SA" ;
+    skos:inScheme cs: ;
+    skos:notation "ABNA"^^<https://example.com/dataset/sa-gn/datatype/sappa> ;
+    skos:prefLabel "Aboriginal name"@en ;
+    schema:creator <https://linked.data.gov.au/org/sa> ;
+.
+
+:advertise
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "The Board has resolved to advertise the proposed name."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "To be Advertised for Public Comment"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:approved
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "Official name given under place naming legislation"@en ;
+    skos:historyNote "Sourced from Qld" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Approved"@en ;
+    schema:creator <https://linked.data.gov.au/org/qld> ;
+.
+
+:archived
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "Names no longer amended in the Register"@en ;
+    skos:example "Ascot Telephone Exchange" ;
+    skos:historyNote "Sourced from VIC" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Archived"@en ;
+    schema:creator <https://linked.data.gov.au/org/vic> ;
+.
+
+:base
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :recorded ;
+    skos:definition "A lifetime name for a feature, if the recorded name is subject to limited-term private contracts"@en ;
+    skos:example "Docklands Stadium" ;
+    skos:historyNote "Sourced from VIC" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Base"@en ;
+    schema:creator <https://linked.data.gov.au/org/vic> ;
+.
+
+:closed
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "The proposal is not open for public comment."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Closed for Public Comment"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:comment
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "The proposal has been advertised and open for public comment on the GNB website."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Open for Public Comment"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:concurred
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Proposed name under another Act to which the Board has concurred but gazettal has not taken place."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Concurred"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:consider
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Proposal is to be considered by the Board."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Board to Consider"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:deferred
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Board has deferred its decision. More supporting information required."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Deferred"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:degazetted
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "To be advised"@en ;
+    skos:historyNote "Sourced from ACT" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Degazetted"@en ;
+    schema:creator <https://linked.data.gov.au/org/act> ;
+.
+
+:deleted
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "To be advised"@en ;
+    skos:historyNote "Sourced from ACT" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Deleted"@en ;
+    schema:creator <https://linked.data.gov.au/org/act> ;
+.
+
+:dept
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :recorded ;
+    skos:definition "Departmental name - applied to feature named by government agencies that are not regarded as places in terms of the Act."@en ;
+    skos:historyNote "Sourced from SA" ;
+    skos:inScheme cs: ;
+    skos:notation "DEPT"^^<https://example.com/dataset/sa-gn/datatype/sappa> ;
+    skos:prefLabel "Departmental"@en ;
+    schema:creator <https://linked.data.gov.au/org/sa> ;
+.
+
+:dept-historic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "Departmental (Historical) name - applied to feature named by government agencies that are not regarded as places in terms of the Act but no longer exists, or the former name of such features when the name has been changed."@en ;
+    skos:historyNote "Sourced from SA" ;
+    skos:inScheme cs: ;
+    skos:notation "DEPH"^^<https://example.com/dataset/sa-gn/datatype/sappa> ;
+    skos:prefLabel "Departmental Historical"@en ;
+    schema:creator <https://linked.data.gov.au/org/sa> ;
+.
+
+:disappeared
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "The feature did exist but due to natural or human forces now longer exists"@en ;
+    skos:historyNote "Sourced from AAD" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disappeared"@en ;
+    schema:creator <https://linked.data.gov.au/org/aad> ;
+.
+
+:effective
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "To be advised"@en ;
+    skos:historyNote "Sourced from ACT" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Effective"@en ;
+    schema:creator <https://linked.data.gov.au/org/act> ;
+.
+
+:estate
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :recorded ;
+    skos:definition "Named use to promote or market a subdivision usually by a developer as a marketing name"@en ;
+    skos:historyNote "Sourced from WA" ;
+    skos:inScheme cs: ;
+    skos:notation "E"^^<https://example.com/dataset/wa-gn/datatype/geonoma> ;
+    skos:prefLabel "Estate Name"@en ;
+    schema:creator <https://linked.data.gov.au/org/wa> ;
+.
+
+:gazetted
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "To be advised"@en ;
+    skos:historyNote "Sourced from ACT" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gazetted"@en ;
+    schema:creator <https://linked.data.gov.au/org/act> ;
+.
+
+:geog
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "Geographical name in terms of the Geographical Names Act, 1991 - is applied to natural features and major cultural features such as towns.  The feature still exists."@en ;
+    skos:historyNote "Sourced from SA" ;
+    skos:inScheme cs: ;
+    skos:notation "GEOG"^^<https://example.com/dataset/sa-gn/datatype/sappa> ;
+    skos:prefLabel "Geographical"@en ;
+    schema:creator <https://linked.data.gov.au/org/sa> ;
+.
+
+:geog-historic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "Geographical (Historical) name - as for GEOG but refers only to natural features that no longer exist."@en ;
+    skos:historyNote "Sourced from SA" ;
+    skos:inScheme cs: ;
+    skos:notation "GEOH"^^<https://example.com/dataset/sa-gn/datatype/sappa> ;
+    skos:prefLabel "Geographical Historical"@en ;
+    schema:creator <https://linked.data.gov.au/org/sa> ;
+.
+
+:min-rec
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "The Board has recommended the proposed name to be approved by the Minister."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Recommendation with Minister"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:nfp-confidential
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :confidential ;
+    skos:definition "An approved geographic or topographic feature name where the location is restricted from access from the public due to sensitive reasons and will not appear on mapping products."@en ;
+    skos:historyNote "Sourced from TAS" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not For Publication (Confidential)"@en ;
+    schema:creator <https://linked.data.gov.au/org/tas> ;
+.
+
+:nfp-historical
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "A name that was approved but has since been rescinded as the feature it related to no longer exists. These names are no longer approved."@en ;
+    skos:historyNote "Sourced from TAS" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not For Publication (Historical)"@en ;
+    schema:creator <https://linked.data.gov.au/org/tas> ;
+.
+
+:nfp-omitted
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :confidential ;
+    skos:definition "An approved name that has been removed (omitted) from publication on mapping products."@en ;
+    skos:historyNote "Sourced from TAS" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not For Publication (Omitted)"@en ;
+    schema:creator <https://linked.data.gov.au/org/tas> ;
+.
+
+:nfp-reserved
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "A reserve or road name where the name has been approved in principle for use once the feature has been established. Proposals for new road names are to be reviewed for conflicts with these names."@en ;
+    skos:historyNote "Sourced from TAS" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not For Publication (Reserved)"@en ;
+    schema:creator <https://linked.data.gov.au/org/tas> ;
+.
+
+:nfp-superseded
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "A name that has been superseded by another name that was not previously approved. These names are not approved."@en ;
+    skos:historyNote "Sourced from TAS" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not For Publication (Superseded)"@en ;
+    schema:creator <https://linked.data.gov.au/org/tas> ;
+.
+
+:normal
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "Publication allowed. All geographic and topographic features, localities and road names must be approved names. Some names of other cultural features may not be formally approved but their use is well accepted."@en ;
+    skos:historyNote "Sourced from TAS" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Normal"@en ;
+    schema:creator <https://linked.data.gov.au/org/tas> ;
+.
+
+:not-approved
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Name that is currently within the proposed lifecycle stage and is under active consideration"@en ;
+    skos:historyNote "Sourced from Qld" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Not approved"@en ;
+    schema:creator <https://linked.data.gov.au/org/qld> ;
+.
+
+:official-edu
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "A government school named under the Education Act 1990"@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Official Assigned EDU"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:official-np
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "A National Park named under the National Parks and Wildlife Act 1974"@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Official Assigned NPWS"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:official-recorded
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "Assigned as a recorded name as per the Geographical Names Act 1966."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Official Recorded"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:pending-endorsement
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "The Board has endorsed the proposal and is waiting for further information from the proponent."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pending Endorsement"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:pending-gazette
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Name approved and awaiting publication in the NSW Government Gazette."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pending Gazette"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:rec-historic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "Recorded (Historical) name - applied to minor cultural features that no longer exist, or to the former name of any feature that could be classified as GEOG or RECD that has had its name changed."@en ;
+    skos:historyNote "Sourced from SA" ;
+    skos:inScheme cs: ;
+    skos:notation "RECH"^^<https://example.com/dataset/sa-gn/datatype/sappa> ;
+    skos:prefLabel "Recorded Historical"@en ;
+    schema:creator <https://linked.data.gov.au/org/sa> ;
+.
+
+:reconsider
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Proposal is to be reconsidered by the Board if objections received after advertising."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Board to Reconsider"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:retired
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "To be advised"@en ;
+    skos:historyNote "Sourced from ACT" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Retired"@en ;
+    schema:creator <https://linked.data.gov.au/org/act> ;
+.
+
+:review-applicant
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Proponent reviewing submissions made on a proposed name at the end of advertising."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Applicant to Review Comments"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:review-secretariat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "The proposal is being reviewed by the GNB Secretariat."@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Under Review"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:revoked
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :historical ;
+    skos:definition "A gazetted or registered name which has been revoked or altered or where the road which has been named has been closed."@en ;
+    skos:historyNote "Sourced from NT" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Revoked"@en ;
+    schema:creator <https://linked.data.gov.au/org/nt> ;
+.
+
+:withdrawn
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :proposed ;
+    skos:definition "Proposed name withdrawn by applicant before finalisation"@en ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Withdrawn"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:assigned
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :official ;
+    skos:definition "Name given under official authority other than place naming legislation"@en ;
+    skos:historyNote "Sourced from Qld, NT" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Assigned"@en ;
+    schema:creator
+        <https://linked.data.gov.au/org/nt> ,
+        <https://linked.data.gov.au/org/qld> ;
+.
+
+:dual
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Dual-Official Assigned"^^:nsw ;
+    skos:broader :official ;
+    skos:definition "Geographical name that is one name for a place where the naming authority formally recognises multiple names for the place"@en ;
+    skos:example "Point Ritchie/Moyjil" ;
+    skos:historyNote "Sourced from NSW" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dual"@en ;
+    schema:creator <https://linked.data.gov.au/org/nsw> ;
+.
+
+:confidential
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Sensitive/Secured Name"^^:wa ;
+    skos:definition "A name whose existence or associated information is recorded by the naming authority but whose publication or access is restricted because the information is sensitive, secured or otherwise not suitable for public release"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :nfp-confidential ,
+        :nfp-omitted ;
+    skos:notation "S"^^<https://example.com/dataset/wa-gn/datatype/geonoma> ;
+    skos:prefLabel "Confidential"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:disallowed
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Rejected"^^:nsw ,
+        "Not For Publication (Disallowed)"^^:tas ;
+    skos:definition "A name that has been formally considered and determined not to be approved or used as a name for the feature"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disallowed"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:collected
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Traditional"^^:vic ,
+        "Alternate Name"^^:wa ;
+    skos:definition "A name that has been captured because of its known use, traditional, cultural, historical or other significance, but which is not itself formally approved or recognised as an official name for the feature"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :aboriginal ;
+    skos:notation "X"^^<https://example.com/dataset/wa-gn/datatype/geonoma> ;
+    skos:prefLabel "Collected"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:recorded
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Acknowledged"^^:aad ,
+        "Variant"^^:nsw ,
+        "Local"^^:sa ,
+        "Variant"^^:sa ,
+        "Not For Publication (Recorded)"^^:tas ,
+        "Not For Publication (Unofficial)"^^:tas ,
+        "Recorded Name"^^:wa ;
+    skos:definition "A name that is known, documented or in use and has been recorded for a feature, but which has not been formally approved or otherwise given official status"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :base ,
+        :dept ,
+        :estate ;
+    skos:notation
+        "LOCL"^^<https://example.com/dataset/sa-gn/datatype/sappa> ,
+        "RECD"^^<https://example.com/dataset/sa-gn/datatype/sappa> ,
+        "VART"^^<https://example.com/dataset/sa-gn/datatype/sappa> ,
+        "U"^^<https://example.com/dataset/wa-gn/datatype/geonoma> ;
+    skos:prefLabel "Recorded"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:official
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Official Assigned"^^:nsw ,
+        "Registered"^^:nt ,
+        "Registered"^^:vic ,
+        "Approved Name"^^:wa ;
+    skos:definition "A name that has been formally approved, assigned, registered, gazetted, adopted or otherwise given official recognition by the relevant naming authority and/or under applicable legislation, and which is current for the feature to which it applies"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :approved ,
+        :assigned ,
+        :disappeared ,
+        :dual ,
+        :effective ,
+        :gazetted ,
+        :geog ,
+        :normal ,
+        :official-edu ,
+        :official-np ,
+        :official-recorded ;
+    skos:notation "C"^^<https://example.com/dataset/wa-gn/datatype/geonoma> ;
+    skos:prefLabel "Official"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:historical
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Discontinued"^^:nsw ,
+        "Discontinued"^^:qld ,
+        "Local Historical"^^:sa ,
+        "Recorded Historical"^^:sa ,
+        "Not For Publication (Rescinded)"^^:tas ,
+        "Historical Name"^^:wa ;
+    skos:definition "A name that was formerly official, approved, recognised or in use for a feature, but is no longer current, including a name that has been revoked, rescinded, replaced, superseded, degazetted, archived or otherwise retired"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :abandoned ,
+        :archived ,
+        :degazetted ,
+        :deleted ,
+        :dept-historic ,
+        :geog-historic ,
+        :nfp-historical ,
+        :nfp-superseded ,
+        :rec-historic ,
+        :retired ,
+        :revoked ;
+    skos:notation
+        "LOCH"^^<https://example.com/dataset/sa-gn/datatype/sappa> ,
+        "H"^^<https://example.com/dataset/wa-gn/datatype/geonoma> ;
+    skos:prefLabel "Historical"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:proposed
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Unapproved"@en ;
+    skos:definition "A name that is or was under consideration, or has been reserved or identified for potential future use, but for which the applicable approval or formal naming process has not been completed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :advertise ,
+        :closed ,
+        :comment ,
+        :concurred ,
+        :consider ,
+        :deferred ,
+        :min-rec ,
+        :nfp-reserved ,
+        :not-approved ,
+        :pending-endorsement ,
+        :pending-gazette ,
+        :reconsider ,
+        :review-applicant ,
+        :review-secretariat ,
+        :unapproved ,
+        :withdrawn ;
+    skos:prefLabel "Proposed"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :0.1 ;
+    skos:definition "Set of terms that classify the status of geographical names"@en ;
+    skos:hasTopConcept
+        :collected ,
+        :confidential ,
+        :disallowed ,
+        :historical ,
+        :official ,
+        :proposed ,
+        :recorded ;
+    skos:historyNote "Experimental vocab developed by Qld for discussion by the PNWG" ;
+    skos:prefLabel "Geographical Name Status Type"@en ;
+    prov:qualifiedAttribution
+        [
+            prov:agent <https://linked.data.gov.au/org/icsm> ;
+            prov:hadRole droles:custodian ;
+        ] ;
+    schema:creator <https://linked.data.gov.au/org/qsi> ;
+    schema:dateCreated "2026-10-16"^^xsd:date ;
+    schema:dateModified "2026-10-16"^^xsd:date ;
+    schema:keywords unggim:GeographicalNames ;
+    schema:publisher <https://linked.data.gov.au/org/icsm> ;
+    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:version "0.1" ;
+.

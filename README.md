@@ -54,7 +54,7 @@ This listing of the resources in this repository is used by the [Prez System](ht
 | Profile Definition   | [Prez Records Profile](https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl) | Default Prez profile for Records API                    |
 | Context Resources    | `_background/*.ttl`                                                                                                   | Multiple labels files for ontologies, licenses & agents |
 
-The vocabularies are validated against the conformance claim in `manifest.ttl` (`dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator>`, the [VocPub](https://w3id.org/profile/vocpub) profile), using [prezmanifest](https://pypi.org/project/prezmanifest/) with `labels.ttl` as background. This is what must pass for Prez to load them.
+The vocabularies are validated against the conformance claim in `manifest.ttl` (`dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator>`, the [VocPub](https://linked.data.gov.au/def/vocpub) profile), using [kgm](https://pypi.org/project/kgm/) with `labels.ttl` as background. This is what must pass for Prez to load them.
 
 
 ## Building vocabularies from CSV
@@ -78,7 +78,7 @@ source/LandParcels/Parcels/nz-parcel-state.csv  ->  vocabs/LandParcels/Parcels/n
     * be listed in `manifest.ttl`, and
     * conform to the validator declared in `manifest.ttl`.
 
-   If all the drafts pass, the whole manifest is then validated with prezmanifest, with the drafts in place, exactly as Prez would load it.
+   If all the drafts pass, the whole manifest is then validated with kgm, with the drafts in place, exactly as Prez would load it.
 4. **Publish or report**
     * **All passed:** the drafts are moved into `vocabs/` (only files whose content actually changed are rewritten) and `source/ttl-drafts/` is deleted.
     * **Anything failed:** nothing in `vocabs/` is touched. The drafts are left in `source/ttl-drafts/` along with `source/ttl-drafts/validation-report.md`, which lists each vocabulary's status, the concepts added/removed/modified, and every validation error. Fix the CSV (or metadata) and run the build again.
