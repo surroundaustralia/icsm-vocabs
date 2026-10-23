@@ -23,6 +23,7 @@ PREFIX schema: <https://schema.org/>
                 "vocabs/Addresses/subaddress-types.ttl" ,
                 "vocabs/GeographicalNames/gn-affix.ttl" ,
                 "vocabs/GeographicalNames/gn-part-types.ttl" ,
+                "vocabs/GeographicalNames/gn-status-types.ttl" ,
                 "vocabs/GeographicalNames/go-categories.ttl" ,
                 "vocabs/LandParcels/CSD-Header/icsm-admin-unit-type.ttl" ,
                 "vocabs/LandParcels/CSD-Header/nz-annotation.ttl" ,
